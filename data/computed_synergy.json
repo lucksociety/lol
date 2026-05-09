@@ -1,0 +1,31 @@
+{
+  "league": "LCKCL",
+  "split": "2026 Summer",
+  "computed_at": "2026-05-07T23:18:00.000000+00:00",
+  "teams": {
+    "KT.C": {
+      "synergy": 1.15,
+      "win_rate": 0.8,
+      "record": "8-2",
+      "games": 10,
+      "h2h": {
+        "DK.C": {
+          "wins": 1,
+          "losses": 0
+        }
+      }
+    },
+    "DK.C": {
+      "synergy": 1.05,
+      "win_rate": 0.6,
+      "record": "6-4",
+      "games": 10,
+      "h2h": {
+        "KT.C": {
+          "wins": 0,
+          "losses": 1
+        }
+      }
+    }
+  }
+}

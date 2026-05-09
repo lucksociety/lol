@@ -1,0 +1,49 @@
+{
+  "date": "2026-04-26",
+  "leagues": {
+    "LCK_CL": [
+      {
+        "match": "T1 Esports Academy vs. FearX Youth",
+        "format": "Bo3",
+        "rosters": {
+          "T1_EA": ["Dal", "Guwon", "Poby", "Smash", "Rekkles"],
+          "BFXY": ["Kangin", "Zephyr", "FIESTA", "Slayer", "Luon"]
+        },
+        "standings": {
+          "T1_EA": "6-1 (1st)",
+          "BFXY": "3-4 (Mid-table)"
+        },
+        "prediction": {
+          "score": "2-0",
+          "winner": "T1 Academy",
+          "confidence": "84%",
+          "key_factors": [
+            "Rekkles macro control",
+            "Smash/Rekkles bot lane synergy (+840 GD@15)",
+            "T1 superior objective control"
+          ]
+        }
+      }
+    ],
+    "LCK": [
+      {
+        "match": "T1 vs. BNK FearX",
+        "context": "T1 rebuilding after losing Zeus/Guma to Gen.G. BNK FearX improved with Prince.",
+        "prediction": "T1 2-1"
+      },
+      {
+        "match": "Gen.G vs. Nongshim Red Force",
+        "context": "Gen.G Superteam debut (Zeus/Gumayusi).",
+        "prediction": "Gen.G 2-0"
+      }
+    ],
+    "LPL": [
+      {
+        "match": "Weibo Gaming vs. Bilibili Gaming",
+        "context": "Viper (BLG) vs. Elk (WBG) revenge match.",
+        "prediction": "BLG 2-1"
+      }
+    ]
+  },
+  "scouted_at": "2026-04-25T21:34:25"
+}

@@ -1,0 +1,2202 @@
+{
+  "league": "LCK",
+  "split": "2026 Spring",
+  "computed_at": "2026-05-03T22:57:38.730381+00:00",
+  "players": {
+    "DnDn": {
+      "power": 85.3,
+      "team": "DNS",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {
+        "kda": 1.32,
+        "dpm": 13000.0,
+        "cspm": 6.8,
+        "kp": 5.3,
+        "vs": 0.9,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.0,
+        "dpm": 0.408,
+        "cspm": 0.408,
+        "kp": 0.0,
+        "vs": 0.245
+      }
+    },
+    "Sylvie": {
+      "power": 88.0,
+      "team": "KT.C",
+      "role": "JGL",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Pollu": {
+      "power": 83.9,
+      "team": "DNS",
+      "role": "SUP",
+      "games": 20,
+      "metrics": {
+        "kda": 1.48,
+        "dpm": 4200.0,
+        "cspm": 0.8,
+        "kp": 5.9,
+        "vs": 2.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.041,
+        "dpm": 0.0,
+        "cspm": 0.0,
+        "kp": 0.02,
+        "vs": 0.816
+      }
+    },
+    "Daystar": {
+      "power": 86.7,
+      "team": "DNS",
+      "role": "MID",
+      "games": 20,
+      "metrics": {
+        "kda": 1.66,
+        "dpm": 17500.0,
+        "cspm": 8.2,
+        "kp": 6.3,
+        "vs": 0.85,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.061,
+        "dpm": 0.551,
+        "cspm": 0.592,
+        "kp": 0.082,
+        "vs": 0.143
+      }
+    },
+    "Morgan": {
+      "power": 86.3,
+      "team": "BFX",
+      "role": "TOP",
+      "games": 21,
+      "metrics": {
+        "kda": 1.73,
+        "dpm": 14500.0,
+        "cspm": 7.0,
+        "kp": 6.0,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.082,
+        "dpm": 0.429,
+        "cspm": 0.429,
+        "kp": 0.041,
+        "vs": 0.449
+      }
+    },
+    "Peter": {
+      "power": 87.1,
+      "team": "DNS",
+      "role": "ADC",
+      "games": 20,
+      "metrics": {
+        "kda": 1.8,
+        "dpm": 18500.0,
+        "cspm": 9.0,
+        "kp": 6.3,
+        "vs": 0.75,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.102,
+        "dpm": 0.592,
+        "cspm": 0.714,
+        "kp": 0.102,
+        "vs": 0.0
+      }
+    },
+    "Rascal": {
+      "power": 87.1,
+      "team": "DRX",
+      "role": "TOP",
+      "games": 22,
+      "metrics": {
+        "kda": 1.97,
+        "dpm": 15200.0,
+        "cspm": 7.3,
+        "kp": 6.45,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.122,
+        "dpm": 0.469,
+        "cspm": 0.469,
+        "kp": 0.122,
+        "vs": 0.469
+      }
+    },
+    "Casting": {
+      "power": 87.0,
+      "team": "BRO",
+      "role": "TOP",
+      "games": 22,
+      "metrics": {
+        "kda": 2.04,
+        "dpm": 15000.0,
+        "cspm": 7.2,
+        "kp": 6.68,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.143,
+        "dpm": 0.449,
+        "cspm": 0.449,
+        "kp": 0.143,
+        "vs": 0.429
+      }
+    },
+    "Juhan": {
+      "power": 86.1,
+      "team": "DRX",
+      "role": "JGL",
+      "games": 22,
+      "metrics": {
+        "kda": 2.05,
+        "dpm": 9200.0,
+        "cspm": 5.0,
+        "kp": 7.18,
+        "vs": 1.25,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.163,
+        "dpm": 0.224,
+        "cspm": 0.265,
+        "kp": 0.163,
+        "vs": 0.633
+      }
+    },
+    "GIDEON": {
+      "power": 86.4,
+      "team": "BRO",
+      "role": "JGL",
+      "games": 22,
+      "metrics": {
+        "kda": 2.14,
+        "dpm": 9500.0,
+        "cspm": 4.8,
+        "kp": 7.5,
+        "vs": 1.3,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.184,
+        "dpm": 0.245,
+        "cspm": 0.224,
+        "kp": 0.245,
+        "vs": 0.653
+      }
+    },
+    "Namgung": {
+      "power": 85.5,
+      "team": "BRO",
+      "role": "SUP",
+      "games": 22,
+      "metrics": {
+        "kda": 2.14,
+        "dpm": 4800.0,
+        "cspm": 0.85,
+        "kp": 7.5,
+        "vs": 2.2,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.204,
+        "dpm": 0.02,
+        "cspm": 0.02,
+        "kp": 0.286,
+        "vs": 0.837
+      }
+    },
+    "Pleata": {
+      "power": 91.0,
+      "team": "NS RedForce Challengers",
+      "role": "SUP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Envyy": {
+      "power": 89.0,
+      "team": "BFX",
+      "role": "ADC",
+      "games": 21,
+      "metrics": {
+        "kda": 2.34,
+        "dpm": 20500.0,
+        "cspm": 9.3,
+        "kp": 7.48,
+        "vs": 0.82,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.245,
+        "dpm": 0.735,
+        "cspm": 0.816,
+        "kp": 0.224,
+        "vs": 0.041
+      }
+    },
+    "Life": {
+      "power": 86.3,
+      "team": "BFX",
+      "role": "SUP",
+      "games": 21,
+      "metrics": {
+        "kda": 2.35,
+        "dpm": 5000.0,
+        "cspm": 0.88,
+        "kp": 7.95,
+        "vs": 2.4,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.265,
+        "dpm": 0.041,
+        "cspm": 0.041,
+        "kp": 0.388,
+        "vs": 0.878
+      }
+    },
+    "Loki": {
+      "power": 88.7,
+      "team": "BRO",
+      "role": "MID",
+      "games": 22,
+      "metrics": {
+        "kda": 2.36,
+        "dpm": 19000.0,
+        "cspm": 8.5,
+        "kp": 7.5,
+        "vs": 0.9,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.286,
+        "dpm": 0.612,
+        "cspm": 0.633,
+        "kp": 0.265,
+        "vs": 0.204
+      }
+    },
+    "Andil": {
+      "power": 86.4,
+      "team": "DRX",
+      "role": "SUP",
+      "games": 22,
+      "metrics": {
+        "kda": 2.38,
+        "dpm": 5200.0,
+        "cspm": 0.9,
+        "kp": 7.77,
+        "vs": 2.3,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.306,
+        "dpm": 0.061,
+        "cspm": 0.082,
+        "kp": 0.347,
+        "vs": 0.857
+      }
+    },
+    "Willer": {
+      "power": 87.6,
+      "team": "BFX",
+      "role": "JGL",
+      "games": 21,
+      "metrics": {
+        "kda": 2.42,
+        "dpm": 9800.0,
+        "cspm": 5.0,
+        "kp": 7.95,
+        "vs": 1.3,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.327,
+        "dpm": 0.265,
+        "cspm": 0.245,
+        "kp": 0.367,
+        "vs": 0.673
+      }
+    },
+    "Teddy": {
+      "power": 89.2,
+      "team": "BRO",
+      "role": "ADC",
+      "games": 22,
+      "metrics": {
+        "kda": 2.48,
+        "dpm": 20000.0,
+        "cspm": 9.5,
+        "kp": 7.45,
+        "vs": 0.8,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.347,
+        "dpm": 0.694,
+        "cspm": 0.837,
+        "kp": 0.204,
+        "vs": 0.02
+      }
+    },
+    "Kingen": {
+      "power": 88.6,
+      "team": "NS",
+      "role": "TOP",
+      "games": 22,
+      "metrics": {
+        "kda": 2.59,
+        "dpm": 16000.0,
+        "cspm": 7.5,
+        "kp": 7.77,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.367,
+        "dpm": 0.49,
+        "cspm": 0.49,
+        "kp": 0.306,
+        "vs": 0.408
+      }
+    },
+    "Fate": {
+      "power": 89.7,
+      "team": "DRX",
+      "role": "MID",
+      "games": 22,
+      "metrics": {
+        "kda": 2.59,
+        "dpm": 19500.0,
+        "cspm": 8.7,
+        "kp": 7.77,
+        "vs": 0.92,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.388,
+        "dpm": 0.653,
+        "cspm": 0.673,
+        "kp": 0.327,
+        "vs": 0.286
+      }
+    },
+    "VicLa": {
+      "power": 90.3,
+      "team": "BFX",
+      "role": "MID",
+      "games": 21,
+      "metrics": {
+        "kda": 2.73,
+        "dpm": 20000.0,
+        "cspm": 8.6,
+        "kp": 8.19,
+        "vs": 0.92,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.408,
+        "dpm": 0.714,
+        "cspm": 0.653,
+        "kp": 0.408,
+        "vs": 0.265
+      }
+    },
+    "Sponge": {
+      "power": 88.6,
+      "team": "NS",
+      "role": "JGL",
+      "games": 22,
+      "metrics": {
+        "kda": 2.83,
+        "dpm": 10000.0,
+        "cspm": 5.2,
+        "kp": 9.0,
+        "vs": 1.35,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.429,
+        "dpm": 0.286,
+        "cspm": 0.286,
+        "kp": 0.49,
+        "vs": 0.694
+      }
+    },
+    "Taeyoon_NS": {
+      "power": 91.0,
+      "team": "NS",
+      "role": "ADC",
+      "games": 22,
+      "metrics": {
+        "kda": 2.89,
+        "dpm": 21500.0,
+        "cspm": 9.8,
+        "kp": 8.27,
+        "vs": 0.82,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.449,
+        "dpm": 0.796,
+        "cspm": 0.878,
+        "kp": 0.429,
+        "vs": 0.082
+      }
+    },
+    "Lehends": {
+      "power": 87.7,
+      "team": "NS",
+      "role": "SUP",
+      "games": 22,
+      "metrics": {
+        "kda": 3.03,
+        "dpm": 5500.0,
+        "cspm": 0.9,
+        "kp": 9.09,
+        "vs": 2.5,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.469,
+        "dpm": 0.082,
+        "cspm": 0.061,
+        "kp": 0.51,
+        "vs": 0.898
+      }
+    },
+    "DuDu": {
+      "power": 90.0,
+      "team": "DK",
+      "role": "TOP",
+      "games": 23,
+      "metrics": {
+        "kda": 3.22,
+        "dpm": 17000.0,
+        "cspm": 7.8,
+        "kp": 8.96,
+        "vs": 1.1,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.49,
+        "dpm": 0.51,
+        "cspm": 0.51,
+        "kp": 0.469,
+        "vs": 0.51
+      }
+    },
+    "Doran": {
+      "power": 90.2,
+      "team": "T1",
+      "role": "TOP",
+      "games": 22,
+      "metrics": {
+        "kda": 3.34,
+        "dpm": 17500.0,
+        "cspm": 7.9,
+        "kp": 8.95,
+        "vs": 1.1,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.51,
+        "dpm": 0.531,
+        "cspm": 0.531,
+        "kp": 0.449,
+        "vs": 0.531
+      }
+    },
+    "Scout": {
+      "power": 91.7,
+      "team": "NS",
+      "role": "MID",
+      "games": 22,
+      "metrics": {
+        "kda": 3.34,
+        "dpm": 21000.0,
+        "cspm": 8.8,
+        "kp": 9.27,
+        "vs": 0.95,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.531,
+        "dpm": 0.776,
+        "cspm": 0.694,
+        "kp": 0.571,
+        "vs": 0.306
+      }
+    },
+    "Taeyoon": {
+      "power": 92.5,
+      "team": "DK",
+      "role": "ADC",
+      "games": 23,
+      "metrics": {
+        "kda": 3.7,
+        "dpm": 24000.0,
+        "cspm": 10.0,
+        "kp": 9.17,
+        "vs": 0.85,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.551,
+        "dpm": 0.918,
+        "cspm": 0.918,
+        "kp": 0.531,
+        "vs": 0.122
+      }
+    },
+    "Kellin": {
+      "power": 88.9,
+      "team": "DK",
+      "role": "SUP",
+      "games": 23,
+      "metrics": {
+        "kda": 3.77,
+        "dpm": 5800.0,
+        "cspm": 1.0,
+        "kp": 10.17,
+        "vs": 2.6,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.571,
+        "dpm": 0.102,
+        "cspm": 0.143,
+        "kp": 0.673,
+        "vs": 0.918
+      }
+    },
+    "PerfecT": {
+      "power": 91.2,
+      "team": "KT",
+      "role": "TOP",
+      "games": 22,
+      "metrics": {
+        "kda": 3.8,
+        "dpm": 18000.0,
+        "cspm": 8.2,
+        "kp": 9.5,
+        "vs": 1.1,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.592,
+        "dpm": 0.571,
+        "cspm": 0.571,
+        "kp": 0.592,
+        "vs": 0.551
+      }
+    },
+    "Oner": {
+      "power": 90.2,
+      "team": "T1",
+      "role": "JGL",
+      "games": 22,
+      "metrics": {
+        "kda": 3.93,
+        "dpm": 11000.0,
+        "cspm": 5.6,
+        "kp": 10.18,
+        "vs": 1.45,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.612,
+        "dpm": 0.306,
+        "cspm": 0.347,
+        "kp": 0.694,
+        "vs": 0.714
+      }
+    },
+    "Lucid": {
+      "power": 90.4,
+      "team": "DK",
+      "role": "JGL",
+      "games": 23,
+      "metrics": {
+        "kda": 3.97,
+        "dpm": 11500.0,
+        "cspm": 5.5,
+        "kp": 10.17,
+        "vs": 1.5,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.633,
+        "dpm": 0.347,
+        "cspm": 0.327,
+        "kp": 0.653,
+        "vs": 0.755
+      }
+    },
+    "Kiin": {
+      "power": 91.8,
+      "team": "GEN",
+      "role": "TOP",
+      "games": 23,
+      "metrics": {
+        "kda": 4.1,
+        "dpm": 19500.0,
+        "cspm": 8.5,
+        "kp": 9.26,
+        "vs": 1.15,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.653,
+        "dpm": 0.633,
+        "cspm": 0.612,
+        "kp": 0.551,
+        "vs": 0.571
+      }
+    },
+    "Peyz": {
+      "power": 93.7,
+      "team": "T1",
+      "role": "ADC",
+      "games": 22,
+      "metrics": {
+        "kda": 4.17,
+        "dpm": 26600.0,
+        "cspm": 10.34,
+        "kp": 10.05,
+        "vs": 0.9,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.673,
+        "dpm": 0.98,
+        "cspm": 0.959,
+        "kp": 0.612,
+        "vs": 0.184
+      }
+    },
+    "Faker": {
+      "power": 93.7,
+      "team": "T1",
+      "role": "MID",
+      "games": 22,
+      "metrics": {
+        "kda": 4.63,
+        "dpm": 22000.0,
+        "cspm": 9.1,
+        "kp": 10.95,
+        "vs": 1.05,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.694,
+        "dpm": 0.816,
+        "cspm": 0.735,
+        "kp": 0.796,
+        "vs": 0.49
+      }
+    },
+    "ShowMaker": {
+      "power": 93.8,
+      "team": "DK",
+      "role": "MID",
+      "games": 23,
+      "metrics": {
+        "kda": 4.63,
+        "dpm": 23000.0,
+        "cspm": 9.3,
+        "kp": 10.48,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.714,
+        "dpm": 0.857,
+        "cspm": 0.796,
+        "kp": 0.776,
+        "vs": 0.388
+      }
+    },
+    "Keria": {
+      "power": 90.5,
+      "team": "T1",
+      "role": "SUP",
+      "games": 22,
+      "metrics": {
+        "kda": 4.65,
+        "dpm": 6500.0,
+        "cspm": 1.1,
+        "kp": 11.64,
+        "vs": 2.85,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.735,
+        "dpm": 0.143,
+        "cspm": 0.163,
+        "kp": 0.857,
+        "vs": 0.98
+      }
+    },
+    "Peanut": {
+      "power": 91.6,
+      "team": "HLE",
+      "role": "JGL",
+      "games": 23,
+      "metrics": {
+        "kda": 4.7,
+        "dpm": 12000.0,
+        "cspm": 5.5,
+        "kp": 11.65,
+        "vs": 1.5,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.755,
+        "dpm": 0.367,
+        "cspm": 0.306,
+        "kp": 0.878,
+        "vs": 0.735
+      }
+    },
+    "Canyon": {
+      "power": 91.6,
+      "team": "GEN",
+      "role": "JGL",
+      "games": 23,
+      "metrics": {
+        "kda": 4.82,
+        "dpm": 12500.0,
+        "cspm": 6.0,
+        "kp": 10.48,
+        "vs": 1.55,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.776,
+        "dpm": 0.388,
+        "cspm": 0.388,
+        "kp": 0.755,
+        "vs": 0.776
+      }
+    },
+    "Gumayusi": {
+      "power": 94.7,
+      "team": "HLE",
+      "role": "ADC",
+      "games": 23,
+      "metrics": {
+        "kda": 4.82,
+        "dpm": 23500.0,
+        "cspm": 10.15,
+        "kp": 11.96,
+        "vs": 0.9,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.796,
+        "dpm": 0.878,
+        "cspm": 0.939,
+        "kp": 0.918,
+        "vs": 0.224
+      }
+    },
+    "Effort": {
+      "power": 91.4,
+      "team": "KT",
+      "role": "SUP",
+      "games": 22,
+      "metrics": {
+        "kda": 4.92,
+        "dpm": 7400.0,
+        "cspm": 0.97,
+        "kp": 13.86,
+        "vs": 2.9,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.816,
+        "dpm": 0.184,
+        "cspm": 0.122,
+        "kp": 1.0,
+        "vs": 1.0
+      }
+    },
+    "Zeus": {
+      "power": 93.2,
+      "team": "HLE",
+      "role": "TOP",
+      "games": 23,
+      "metrics": {
+        "kda": 5.02,
+        "dpm": 20000.0,
+        "cspm": 8.0,
+        "kp": 10.48,
+        "vs": 1.2,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.837,
+        "dpm": 0.673,
+        "cspm": 0.551,
+        "kp": 0.735,
+        "vs": 0.592
+      }
+    },
+    "Cuzz": {
+      "power": 91.9,
+      "team": "KT",
+      "role": "JGL",
+      "games": 22,
+      "metrics": {
+        "kda": 5.06,
+        "dpm": 11500.0,
+        "cspm": 5.8,
+        "kp": 11.5,
+        "vs": 1.6,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.857,
+        "dpm": 0.327,
+        "cspm": 0.367,
+        "kp": 0.837,
+        "vs": 0.796
+      }
+    },
+    "Ruler": {
+      "power": 93.9,
+      "team": "GEN",
+      "role": "ADC",
+      "games": 23,
+      "metrics": {
+        "kda": 5.07,
+        "dpm": 22100.0,
+        "cspm": 10.44,
+        "kp": 10.13,
+        "vs": 0.88,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.878,
+        "dpm": 0.837,
+        "cspm": 0.98,
+        "kp": 0.633,
+        "vs": 0.163
+      }
+    },
+    "Chovy": {
+      "power": 95.0,
+      "team": "GEN",
+      "role": "MID",
+      "games": 23,
+      "metrics": {
+        "kda": 5.17,
+        "dpm": 24300.0,
+        "cspm": 9.87,
+        "kp": 10.35,
+        "vs": 0.95,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.898,
+        "dpm": 0.959,
+        "cspm": 0.898,
+        "kp": 0.714,
+        "vs": 0.327
+      }
+    },
+    "Duro": {
+      "power": 91.0,
+      "team": "GEN",
+      "role": "SUP",
+      "games": 23,
+      "metrics": {
+        "kda": 5.25,
+        "dpm": 7100.0,
+        "cspm": 0.94,
+        "kp": 10.96,
+        "vs": 2.75,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.918,
+        "dpm": 0.163,
+        "cspm": 0.102,
+        "kp": 0.816,
+        "vs": 0.939
+      }
+    },
+    "Delight": {
+      "power": 91.6,
+      "team": "HLE",
+      "role": "SUP",
+      "games": 23,
+      "metrics": {
+        "kda": 5.44,
+        "dpm": 6200.0,
+        "cspm": 1.19,
+        "kp": 13.48,
+        "vs": 2.8,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.939,
+        "dpm": 0.122,
+        "cspm": 0.184,
+        "kp": 0.98,
+        "vs": 0.959
+      }
+    },
+    "Bdd": {
+      "power": 95.5,
+      "team": "KT",
+      "role": "MID",
+      "games": 22,
+      "metrics": {
+        "kda": 5.84,
+        "dpm": 24300.0,
+        "cspm": 9.19,
+        "kp": 11.95,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.959,
+        "dpm": 0.939,
+        "cspm": 0.776,
+        "kp": 0.898,
+        "vs": 0.367
+      }
+    },
+    "Aiming": {
+      "power": 95.9,
+      "team": "KT",
+      "role": "ADC",
+      "games": 22,
+      "metrics": {
+        "kda": 6.85,
+        "dpm": 28900.0,
+        "cspm": 10.61,
+        "kp": 12.45,
+        "vs": 0.85,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 0.98,
+        "dpm": 1.0,
+        "cspm": 1.0,
+        "kp": 0.939,
+        "vs": 0.102
+      }
+    },
+    "Zeka": {
+      "power": 95.6,
+      "team": "HLE",
+      "role": "MID",
+      "games": 23,
+      "metrics": {
+        "kda": 7.67,
+        "dpm": 24000.0,
+        "cspm": 9.19,
+        "kp": 13.0,
+        "vs": 1.0,
+        "gd15": 0
+      },
+      "percentiles": {
+        "kda": 1.0,
+        "dpm": 0.898,
+        "cspm": 0.755,
+        "kp": 0.959,
+        "vs": 0.347
+      }
+    },
+    "Siwoo": {
+      "power": 88.5,
+      "team": "DK",
+      "role": "TOP",
+      "games": 72,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Smash": {
+      "power": 92.5,
+      "team": "DK",
+      "role": "ADC",
+      "games": 72,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Career": {
+      "power": 88.5,
+      "team": "DK",
+      "role": "SUP",
+      "games": 72,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Kangin": {
+      "power": 86.0,
+      "team": "FearX Youth",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Zephyr": {
+      "power": 87.0,
+      "team": "FearX Youth",
+      "role": "JGL",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "FIESTA": {
+      "power": 92.0,
+      "team": "FearX Youth",
+      "role": "MID",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Slayer": {
+      "power": 90.0,
+      "team": "FearX Youth",
+      "role": "BOT",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Luon": {
+      "power": 88.0,
+      "team": "FearX Youth",
+      "role": "SUP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Janus": {
+      "power": 88.0,
+      "team": "NS RedForce Challengers",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "MihawK": {
+      "power": 89.0,
+      "team": "NS RedForce Challengers",
+      "role": "JGL",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "SeTab": {
+      "power": 93.0,
+      "team": "NS RedForce Challengers",
+      "role": "MID",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Lucy": {
+      "power": 87.0,
+      "team": "NS RedForce Challengers",
+      "role": "BOT",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "DDahyuk": {
+      "power": 84.0,
+      "team": "Brion Challengers",
+      "role": "Top",
+      "games": 24,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Dinai": {
+      "power": 85.0,
+      "team": "Brion Challengers",
+      "role": "Jungle",
+      "games": 24,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Tempester": {
+      "power": 86.0,
+      "team": "Brion Challengers",
+      "role": "Mid",
+      "games": 24,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "OddEye": {
+      "power": 85.0,
+      "team": "Brion Challengers",
+      "role": "ADC",
+      "games": 24,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "PlanB": {
+      "power": 86.0,
+      "team": "Brion Challengers",
+      "role": "Support",
+      "games": 24,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Courage": {
+      "power": 83.0,
+      "team": "Gen.G Global Academy",
+      "role": "Top",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Kemish": {
+      "power": 87.0,
+      "team": "Gen.G Global Academy",
+      "role": "Jungle",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Ripple": {
+      "power": 81.0,
+      "team": "Gen.G Global Academy",
+      "role": "Mid",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "MUDAI": {
+      "power": 82.0,
+      "team": "Gen.G Global Academy",
+      "role": "ADC",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "SIRIUSS": {
+      "power": 81.0,
+      "team": "Gen.G Global Academy",
+      "role": "Support",
+      "games": 11,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Cube": {
+      "power": 84.0,
+      "team": "Team WE",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Monki": {
+      "power": 83.0,
+      "team": "Team WE",
+      "role": "JUNGLE",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Karis": {
+      "power": 85.0,
+      "team": "Team WE",
+      "role": "MID",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "About": {
+      "power": 82.0,
+      "team": "Team WE",
+      "role": "ADC",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Erha": {
+      "power": 81.0,
+      "team": "Team WE",
+      "role": "SUPPORT",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Breathe": {
+      "power": 91.0,
+      "team": "Invictus Gaming",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Wei": {
+      "power": 92.0,
+      "team": "Invictus Gaming",
+      "role": "JUNGLE",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Rookie": {
+      "power": 93.0,
+      "team": "Invictus Gaming",
+      "role": "MID",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "JiaQi": {
+      "power": 85.0,
+      "team": "Invictus Gaming",
+      "role": "ADC",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Meiko": {
+      "power": 94.0,
+      "team": "Invictus Gaming",
+      "role": "SUPPORT",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Tyrion": {
+      "power": 80.0,
+      "team": "WE",
+      "role": "Jungle",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Nia": {
+      "power": 90.0,
+      "team": "IG",
+      "role": "Mid",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "ZUIAN": {
+      "power": 88.0,
+      "team": "Top Esports",
+      "role": "TOP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Tian": {
+      "power": 92.0,
+      "team": "Top Esports",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Creme": {
+      "power": 91.0,
+      "team": "Top Esports",
+      "role": "MID",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "JackeyLove": {
+      "power": 94.0,
+      "team": "Top Esports",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Fengyue": {
+      "power": 86.0,
+      "team": "Top Esports",
+      "role": "SUP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Xiaoxu": {
+      "power": 87.0,
+      "team": "JD Gaming",
+      "role": "TOP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "JunJia": {
+      "power": 90.0,
+      "team": "JD Gaming",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "HongQ": {
+      "power": 93.0,
+      "team": "JD Gaming",
+      "role": "MID",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "GALA": {
+      "power": 95.0,
+      "team": "JD Gaming",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Vampire": {
+      "power": 88.0,
+      "team": "JD Gaming",
+      "role": "SUP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Pyosik": {
+      "power": 86.0,
+      "team": "DNS",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Clozer": {
+      "power": 87.5,
+      "team": "DNS",
+      "role": "MID",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "deokdam": {
+      "power": 86.5,
+      "team": "DNS",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "1Jiang": {
+      "power": 91.0,
+      "team": "Ground Zero Gaming",
+      "role": "Top",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Husha": {
+      "power": 85.0,
+      "team": "Ground Zero Gaming",
+      "role": "Jungle",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "JimieN": {
+      "power": 84.0,
+      "team": "Ground Zero Gaming",
+      "role": "Mid",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Shunn": {
+      "power": 86.0,
+      "team": "Ground Zero Gaming",
+      "role": "Bot",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Orca": {
+      "power": 81.0,
+      "team": "Ground Zero Gaming",
+      "role": "Support",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Rest": {
+      "power": 89.0,
+      "team": "CTBC Flying Oyster",
+      "role": "Top",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Shad0w": {
+      "power": 91.0,
+      "team": "CTBC Flying Oyster",
+      "role": "Jungle",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Pungyeon": {
+      "power": 85.0,
+      "team": "CTBC Flying Oyster",
+      "role": "Mid",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Doggo": {
+      "power": 92.0,
+      "team": "CTBC Flying Oyster",
+      "role": "Bot",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "2274": {
+      "power": 84.0,
+      "team": "CTBC Flying Oyster",
+      "role": "Support",
+      "games": 25,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Sven": {
+      "power": 82.0,
+      "team": "VfB Esports",
+      "role": "TOP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Zwickl": {
+      "power": 81.0,
+      "team": "VfB Esports",
+      "role": "JGL",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Luke": {
+      "power": 84.0,
+      "team": "VfB Esports",
+      "role": "MID",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Tazaku": {
+      "power": 82.0,
+      "team": "VfB Esports",
+      "role": "ADC",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Jakobobbi": {
+      "power": 81.0,
+      "team": "VfB Esports",
+      "role": "SUP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Shelfmade": {
+      "power": 91.0,
+      "team": "G2 NORD",
+      "role": "TOP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Markoon": {
+      "power": 92.0,
+      "team": "G2 NORD",
+      "role": "JGL",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Toasty": {
+      "power": 89.0,
+      "team": "G2 NORD",
+      "role": "MID",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "rin": {
+      "power": 93.0,
+      "team": "G2 NORD",
+      "role": "ADC",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Tockimo": {
+      "power": 89.0,
+      "team": "G2 NORD",
+      "role": "SUP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "CPM": {
+      "power": 82.0,
+      "team": "Rossmann Centaurs",
+      "role": "Top",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Pasu": {
+      "power": 81.0,
+      "team": "Rossmann Centaurs",
+      "role": "Jungle",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Fooneses": {
+      "power": 80.0,
+      "team": "Rossmann Centaurs",
+      "role": "Mid",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Devn": {
+      "power": 81.0,
+      "team": "Rossmann Centaurs",
+      "role": "ADC",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Smarty": {
+      "power": 80.0,
+      "team": "Rossmann Centaurs",
+      "role": "Support",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "zorenous": {
+      "power": 88.0,
+      "team": "Team Orange Gaming",
+      "role": "Top",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Woldjo": {
+      "power": 89.0,
+      "team": "Team Orange Gaming",
+      "role": "Jungle",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "SAJATOR": {
+      "power": 91.0,
+      "team": "Team Orange Gaming",
+      "role": "Mid",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Ryuk": {
+      "power": 93.0,
+      "team": "Team Orange Gaming",
+      "role": "ADC",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Lilipp": {
+      "power": 94.0,
+      "team": "Team Orange Gaming",
+      "role": "Support",
+      "games": 9,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Hecabrand": {
+      "power": 82.0,
+      "team": "Team Phoenix",
+      "role": "Top",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "meto": {
+      "power": 83.0,
+      "team": "Team Phoenix",
+      "role": "Jungle",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "SmallBugi": {
+      "power": 82.0,
+      "team": "Team Phoenix",
+      "role": "Mid",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Raen1": {
+      "power": 82.0,
+      "team": "Team Phoenix",
+      "role": "Bot",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Bmoooo": {
+      "power": 81.0,
+      "team": "Team Phoenix",
+      "role": "Support",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Leks": {
+      "power": 91.0,
+      "team": "SU Esports",
+      "role": "Top",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Rames": {
+      "power": 93.0,
+      "team": "SU Esports",
+      "role": "Jungle",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Secrett": {
+      "power": 91.0,
+      "team": "SU Esports",
+      "role": "Mid",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Vespa": {
+      "power": 90.0,
+      "team": "SU Esports",
+      "role": "Bot",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Seneca": {
+      "power": 89.0,
+      "team": "SU Esports",
+      "role": "Support",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Spooder": {
+      "power": 94.0,
+      "team": "TLN Pirates",
+      "role": "TOP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Stefan": {
+      "power": 91.0,
+      "team": "TLN Pirates",
+      "role": "JGL",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Toffe": {
+      "power": 92.0,
+      "team": "TLN Pirates",
+      "role": "MID",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Axelent": {
+      "power": 93.0,
+      "team": "TLN Pirates",
+      "role": "ADC",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Thomas": {
+      "power": 92.0,
+      "team": "TLN Pirates",
+      "role": "SUP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Leny": {
+      "power": 83.0,
+      "team": "Esprit Shōnen",
+      "role": "TOP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Kobs": {
+      "power": 88.0,
+      "team": "Esprit Shōnen",
+      "role": "JGL",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "xKenzuke": {
+      "power": 86.0,
+      "team": "Esprit Shōnen",
+      "role": "MID",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Avra": {
+      "power": 83.0,
+      "team": "Esprit Shōnen",
+      "role": "ADC",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Mxe": {
+      "power": 82.0,
+      "team": "Esprit Shōnen",
+      "role": "SUP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Decoy": {
+      "power": 81.0,
+      "team": "Dorado Gaming",
+      "role": "TOP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Lojaz": {
+      "power": 84.0,
+      "team": "Dorado Gaming",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Aadam": {
+      "power": 81.0,
+      "team": "Dorado Gaming",
+      "role": "MID",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Hub": {
+      "power": 82.0,
+      "team": "Dorado Gaming",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Redemption": {
+      "power": 82.0,
+      "team": "Dorado Gaming",
+      "role": "SUP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Zyko": {
+      "power": 85.0,
+      "team": "Supernova",
+      "role": "TOP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Will": {
+      "power": 86.0,
+      "team": "Supernova",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "shochi": {
+      "power": 91.0,
+      "team": "Supernova",
+      "role": "MID",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Levitate": {
+      "power": 89.0,
+      "team": "Supernova",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Music": {
+      "power": 85.0,
+      "team": "Supernova",
+      "role": "SUP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Agresivoo": {
+      "power": 91.0,
+      "team": "BCE",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "mikusik": {
+      "power": 89.0,
+      "team": "BCE",
+      "role": "JGL",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Artoria": {
+      "power": 90.0,
+      "team": "BCE",
+      "role": "MID",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Woolite": {
+      "power": 95.0,
+      "team": "BCE",
+      "role": "BOT",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Jactroll": {
+      "power": 93.0,
+      "team": "BCE",
+      "role": "SUP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "frajgo": {
+      "power": 88.0,
+      "team": "BOOM",
+      "role": "TOP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Guli": {
+      "power": 91.0,
+      "team": "BOOM",
+      "role": "JGL",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Mrozku": {
+      "power": 90.0,
+      "team": "BOOM",
+      "role": "MID",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Odi11": {
+      "power": 93.0,
+      "team": "BOOM",
+      "role": "BOT",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "minemaciek": {
+      "power": 89.0,
+      "team": "BOOM",
+      "role": "SUP",
+      "games": 20,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Tao": {
+      "power": 83.0,
+      "team": "KCB",
+      "role": "TOP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Yukino": {
+      "power": 94.0,
+      "team": "KCB",
+      "role": "JUNGLE",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Kamiloo": {
+      "power": 86.0,
+      "team": "KCB",
+      "role": "MID",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Hazel": {
+      "power": 89.0,
+      "team": "KCB",
+      "role": "ADC",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Prime": {
+      "power": 87.0,
+      "team": "KCB",
+      "role": "SUPPORT",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Badlulu": {
+      "power": 85.0,
+      "team": "IJC",
+      "role": "TOP",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Kaboom": {
+      "power": 84.0,
+      "team": "IJC",
+      "role": "JUNGLE",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Dajor": {
+      "power": 88.0,
+      "team": "IJC",
+      "role": "MID",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Soldier": {
+      "power": 91.0,
+      "team": "IJC",
+      "role": "ADC",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Whiteinn": {
+      "power": 89.0,
+      "team": "IJC",
+      "role": "SUPPORT",
+      "games": 18,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Bin": {
+      "power": 97.5,
+      "team": "BLG",
+      "role": "TOP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Xun": {
+      "power": 92.5,
+      "team": "BLG",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Knight": {
+      "power": 98.2,
+      "team": "BLG",
+      "role": "MID",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Viper": {
+      "power": 96.5,
+      "team": "BLG",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "ON": {
+      "power": 91.5,
+      "team": "BLG",
+      "role": "SUP",
+      "games": 15,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Jaehyuk": {
+      "power": 87.0,
+      "team": "DK.C",
+      "role": "TOP",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Sharvel": {
+      "power": 88.0,
+      "team": "DK.C",
+      "role": "JGL",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Garden": {
+      "power": 84.0,
+      "team": "DK.C",
+      "role": "MID",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Wayne": {
+      "power": 86.0,
+      "team": "DK.C",
+      "role": "ADC",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Loopy": {
+      "power": 85.0,
+      "team": "DK.C",
+      "role": "SUP",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Sero": {
+      "power": 85.0,
+      "team": "KT.C",
+      "role": "TOP",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Hwichan": {
+      "power": 86.0,
+      "team": "KT.C",
+      "role": "MID",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "FenRir": {
+      "power": 85.0,
+      "team": "KT.C",
+      "role": "ADC",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Ghost": {
+      "power": 87.0,
+      "team": "KT.C",
+      "role": "SUP",
+      "games": 10,
+      "metrics": {},
+      "percentiles": {}
+    },
+    "Kanavi": {
+      "power": 95.0,
+      "team": "JDG",
+      "role": "JGL",
+      "games": 15
+    },
+    "Missing": {
+      "power": 92.0,
+      "team": "JDG",
+      "role": "SUP",
+      "games": 15
+    },
+    "Tarzan": {
+      "power": 95.5,
+      "team": "AL",
+      "role": "JGL",
+      "games": 15,
+      "metrics": {
+        "gd15": 330
+      }
+    },
+    "Ale": {
+      "power": 91.0,
+      "team": "AL",
+      "role": "TOP",
+      "games": 15
+    },
+    "Shanks": {
+      "power": 92.0,
+      "team": "AL",
+      "role": "MID",
+      "games": 15
+    },
+    "1xn": {
+      "power": 94.5,
+      "team": "LNG",
+      "role": "ADC",
+      "games": 15,
+      "metrics": {
+        "dpm": 1050,
+        "cspm": 10.5
+      }
+    }
+  }
+}

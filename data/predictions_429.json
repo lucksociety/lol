@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-29",
+  "predictions": [
+    {
+      "match": "T1 vs NS",
+      "league": "LCK",
+      "winner": "T1",
+      "score": "2-0",
+      "win_prob": 0.988,
+      "edge": "Massive mid-jungle synergy (Faker/Oner) and Keria vision dominance."
+    },
+    {
+      "match": "KT vs HLE",
+      "league": "LCK",
+      "winner": "HLE",
+      "score": "2-0",
+      "win_prob": 0.850,
+      "edge": "HLE roster power (Zeus/Guma) overcomes KT's momentum in high-pressure teamfights."
+    }
+  ],
+  "breaking_news": [
+    "Keria renewed with T1 until 2029.",
+    "BNK FearX Diable benched; Slayer starting."
+  ]
+}

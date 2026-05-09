@@ -1,0 +1,332 @@
+{
+  "KT": {
+    "full_name": "KT Rolster",
+    "league": "LCK",
+    "players": {
+      "top": "PerfecT",
+      "jungle": "Cuzz",
+      "mid": "Bdd",
+      "adc": "Aiming",
+      "support": "Pollu"
+    },
+    "subs": {},
+    "verified_at": "2026-05-03T18:33:39.986184+00:00",
+    "source": "test-verification",
+    "verified_by": "cli"
+  },
+  "BRO": {
+    "full_name": "OKSavingsBank BRION",
+    "league": "LCK",
+    "players": {
+      "top": "Casting",
+      "jungle": "GIDEON",
+      "mid": "Loki",
+      "adc": "Teddy",
+      "support": "Namgung"
+    },
+    "subs": {},
+    "verified_at": "2026-05-03T18:33:46.548468+00:00",
+    "source": "test-verification",
+    "verified_by": "cli"
+  },
+  "DK.C": {
+    "full_name": "Dplus KIA Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Wayne",
+      "jungle": "Loopy",
+      "mid": "Sharvel",
+      "adc": "Jaehyuk",
+      "support": "Garden"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:04:49.471887+00:00",
+    "source": "liquipedia",
+    "verified_by": "cli"
+  },
+  "DNS.C": {
+    "full_name": "DN SOOPers Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Enosh",
+      "jungle": "Quantum",
+      "mid": "Sub_Mid",
+      "adc": "Sub_ADC",
+      "support": "Sub_Sup"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:04:49.500958+00:00",
+    "source": "liquipedia",
+    "verified_by": "cli"
+  },
+  "KT.C": {
+    "full_name": "KT Rolster Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Sero",
+      "jungle": "Sylvie",
+      "mid": "Hwichan",
+      "adc": "FenRir",
+      "support": "Pollu"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:04:49.527713+00:00",
+    "source": "liquipedia",
+    "verified_by": "cli"
+  },
+  "KRC.C": {
+    "full_name": "KIWOOM DRX Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Winner",
+      "jungle": "Minous",
+      "mid": "Frog",
+      "adc": "AKaJe",
+      "support": "Sub_Sup"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:04:49.554802+00:00",
+    "source": "liquipedia",
+    "verified_by": "cli"
+  },
+  "T1.EA": {
+    "full_name": "T1 Esports Academy",
+    "league": "LCK",
+    "players": {
+      "top": "Haetae",
+      "jungle": "Painter",
+      "mid": "Guti",
+      "adc": "Cypher",
+      "support": "Cloud"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:04:49.581557+00:00",
+    "source": "liquipedia",
+    "verified_by": "cli"
+  },
+  "HLE.C": {
+    "full_name": "Hanwha Life Esports Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Panther",
+      "jungle": "Jackal",
+      "mid": "Cracker",
+      "adc": "Pyeonsik",
+      "support": "Bluffing"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:04:49.609079+00:00",
+    "source": "liquipedia",
+    "verified_by": "cli"
+  },
+  "DKC": {
+    "full_name": "Dplus KIA Challengers",
+    "league": "LCKCL",
+    "players": {
+      "top": "Jaehyuk",
+      "jungle": "Sharvel",
+      "mid": "Garden",
+      "adc": "Wayne",
+      "support": "Loopy"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:13:17.162993+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LCK_Challengers_League/2026/Spring",
+    "verified_by": "cli"
+  },
+  "DNSC": {
+    "full_name": "DN SOOPers Challengers",
+    "league": "LCKCL",
+    "players": {
+      "top": "Lancer",
+      "jungle": "DDoiV",
+      "mid": "Flip",
+      "adc": "Enosh",
+      "support": "Quantum"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:13:17.227732+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LCK_Challengers_League/2026/Spring",
+    "verified_by": "cli"
+  },
+  "KTC": {
+    "full_name": "KT Rolster Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Sero",
+      "jungle": "Sylvie",
+      "mid": "Hwichan",
+      "adc": "FenRir",
+      "support": "Ghost"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:24:30.302713+00:00",
+    "source": "https://gol.gg/teams/list/season-S16/split-Spring/tournament-ALL/",
+    "verified_by": "cli"
+  },
+  "KRX": {
+    "full_name": "Kiwoom DRX Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Frog",
+      "jungle": "Winner",
+      "mid": "AKaJe",
+      "adc": "Jiwoo",
+      "support": "Minous"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T01:24:32.339544+00:00",
+    "source": "https://gol.gg/teams/list/season-S16/split-Spring/tournament-ALL/",
+    "verified_by": "cli"
+  },
+  "FNC": {
+    "full_name": "Fnatic",
+    "league": "LEC",
+    "players": {
+      "top": "Empyros",
+      "jungle": "Razork",
+      "mid": "Vladi",
+      "adc": "Upset",
+      "support": "Lospa"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T13:56:07.742317+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LEC/2026/Spring",
+    "verified_by": "cli"
+  },
+  "VIT": {
+    "full_name": "Team Vitality",
+    "league": "LEC",
+    "players": {
+      "top": "Naak Nako",
+      "jungle": "Lyncas",
+      "mid": "Humanoid",
+      "adc": "Carzzy",
+      "support": "Fleshy"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T13:56:10.604271+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LEC/2026/Spring",
+    "verified_by": "cli"
+  },
+  "SHF": {
+    "full_name": "Shifters",
+    "league": "LEC",
+    "players": {
+      "top": "Rooster",
+      "jungle": "Sheo",
+      "mid": "nuc",
+      "adc": "Paduck",
+      "support": "Trymbi"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T13:59:55.809038+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LEC/2026/Spring",
+    "verified_by": "cli"
+  },
+  "MKOI": {
+    "full_name": "Movistar KOI",
+    "league": "LEC",
+    "players": {
+      "top": "Myrwn",
+      "jungle": "Elyoya",
+      "mid": "Jojopyun",
+      "adc": "Supa",
+      "support": "Alvaro"
+    },
+    "subs": {},
+    "verified_at": "2026-05-04T13:59:55.835931+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LEC/2026/Spring",
+    "verified_by": "cli"
+  },
+  "BFXY": {
+    "full_name": "BNK FearX Youth",
+    "league": "LCK",
+    "players": {
+      "top": "Kangin",
+      "jungle": "Zephyr",
+      "mid": "FIESTA",
+      "adc": "Slayer",
+      "support": "Luon"
+    },
+    "subs": {},
+    "verified_at": "2026-05-05T02:46:54.766882+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LCK_Challengers_League/2026/Season",
+    "verified_by": "cli"
+  },
+  "NSC": {
+    "full_name": "NS RedForce Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Janus",
+      "jungle": "Mihawk",
+      "mid": "SeTab",
+      "adc": "Lucy",
+      "support": "Pleata"
+    },
+    "subs": {},
+    "verified_at": "2026-05-05T02:46:54.795507+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/LCK_Challengers_League/2026/Season",
+    "verified_by": "cli"
+  },
+  "BROC": {
+    "full_name": "Brion Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "DDahyuk",
+      "jungle": "Dinai",
+      "mid": "Tempester",
+      "adc": "OddEye",
+      "support": "PlanB"
+    },
+    "subs": {},
+    "verified_at": "2026-05-05T02:58:35.730914+00:00",
+    "source": "https://lol.fandom.com/wiki/LCK_Challengers_League/2026_Season/Rounds_1-2",
+    "verified_by": "cli"
+  },
+  "GENA": {
+    "full_name": "Gen.G Global Academy",
+    "league": "LCK",
+    "players": {
+      "top": "Ripple",
+      "jungle": "Courage",
+      "mid": "Kemish",
+      "adc": "MUDAI",
+      "support": "SIRIUSS"
+    },
+    "subs": {},
+    "verified_at": "2026-05-05T02:58:35.759946+00:00",
+    "source": "https://lol.fandom.com/wiki/LCK_Challengers_League/2026_Season/Rounds_1-2",
+    "verified_by": "cli"
+  },
+  "DK": {
+    "full_name": "Dplus KIA",
+    "league": "LCK",
+    "players": {
+      "top": "Siwoo",
+      "jungle": "Lucid",
+      "mid": "ShowMaker",
+      "adc": "Smash",
+      "support": "Career"
+    },
+    "subs": {},
+    "verified_at": "2026-05-05T03:52:28.846663+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2026/Korea_Qualifier",
+    "verified_by": "cli"
+  },
+  "NS": {
+    "full_name": "Nongshim RedForce",
+    "league": "LCK",
+    "players": {
+      "top": "Kingen",
+      "jungle": "Sponge",
+      "mid": "Scout",
+      "adc": "Diable",
+      "support": "Lehends"
+    },
+    "subs": {},
+    "verified_at": "2026-05-05T03:52:28.875640+00:00",
+    "source": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2026/Korea_Qualifier",
+    "verified_by": "cli"
+  }
+}
