@@ -977,7 +977,58 @@
                 text-align: left;
             }
         }
+
+        /* --- MOBILE RESPONSIVENESS --- */
+        @media (max-width: 768px) {
+            body { padding: 15px 10px; }
+            header {
+                padding: 20px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+            .logo-container { gap: 12px; }
+            .hextech-crest-coin { width: 45px; height: 45px; }
+            h1 { font-size: 1.6rem; }
+            .header-brand-info span { font-size: 0.7rem; }
+            .header-meta {
+                align-items: flex-start;
+                width: 100%;
+            }
+            .timestamp {
+                font-size: 0.75rem;
+                padding: 8px 12px;
+                text-align: left;
+                width: 100%;
+            }
+            .kpi-grid { grid-template-columns: 1fr; }
+            .controls-card {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 15px;
+            }
+            .search-container { max-width: 100%; }
+            .slate-card-header {
+                padding: 15px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .slate-card-header h2 { font-size: 1.15rem; }
+            th, td {
+                padding: 12px 15px;
+                font-size: 0.85rem;
+            }
+            .kpi-value { font-size: 1.3rem; }
+            .parlay-card-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .parlay-card-meta { text-align: left; }
+        }
     </style>
+
 </head>
 <body>
     <div class="container">
@@ -996,8 +1047,8 @@
             <div class="header-meta">
                 <div class="sim-engine-badge">100k Simulations Active</div>
                 <div class="timestamp">
-                    SLATE DATE: 2026-05-21<br>
-                    <span style="font-size: 0.72rem; color: var(--text-muted)">UPDATED: May 22, 2026 at 02:16 UTC</span>
+                    SLATE DATE: 2026-05-22<br>
+                    <span style="font-size: 0.72rem; color: var(--text-muted)">UPDATED: May 22, 2026 at 02:21 UTC</span>
                 </div>
             </div>
         </header>
