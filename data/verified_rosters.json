@@ -4,15 +4,15 @@
     "league": "LCK",
     "players": {
       "top": "PerfecT",
-      "jungle": "Cuzz",
+      "jungle": "Pyosik",
       "mid": "Bdd",
-      "adc": "Aiming",
-      "support": "Pollu"
+      "adc": "Deft",
+      "support": "BeryL"
     },
     "subs": {},
-    "verified_at": "2026-05-03T18:33:39.986184+00:00",
-    "source": "test-verification",
-    "verified_by": "cli"
+    "verified_at": "2026-05-22T02:13:15.552907+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
   },
   "BRO": {
     "full_name": "OKSavingsBank BRION",
@@ -63,16 +63,16 @@
     "full_name": "KT Rolster Challengers",
     "league": "LCK",
     "players": {
-      "top": "Sero",
+      "top": "PerfecT",
       "jungle": "Sylvie",
-      "mid": "Hwichan",
-      "adc": "FenRir",
-      "support": "Pollu"
+      "mid": "Face",
+      "adc": "Hype",
+      "support": "Way"
     },
     "subs": {},
-    "verified_at": "2026-05-04T01:04:49.527713+00:00",
-    "source": "liquipedia",
-    "verified_by": "cli"
+    "verified_at": "2026-05-22T02:13:15.396907+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
   },
   "KRC.C": {
     "full_name": "KIWOOM DRX Challengers",
@@ -93,16 +93,16 @@
     "full_name": "T1 Esports Academy",
     "league": "LCK",
     "players": {
-      "top": "Haetae",
-      "jungle": "Painter",
-      "mid": "Guti",
-      "adc": "Cypher",
-      "support": "Cloud"
+      "top": "Zeus",
+      "jungle": "Oner",
+      "mid": "Faker",
+      "adc": "Gumayusi",
+      "support": "Keria"
     },
     "subs": {},
-    "verified_at": "2026-05-04T01:04:49.581557+00:00",
-    "source": "liquipedia",
-    "verified_by": "cli"
+    "verified_at": "2026-05-22T02:13:15.353465+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
   },
   "HLE.C": {
     "full_name": "Hanwha Life Esports Challengers",
@@ -243,16 +243,16 @@
     "full_name": "BNK FearX Youth",
     "league": "LCK",
     "players": {
-      "top": "Kangin",
-      "jungle": "Zephyr",
-      "mid": "FIESTA",
-      "adc": "Slayer",
-      "support": "Luon"
+      "top": "Clear",
+      "jungle": "Raptor",
+      "mid": "SeTab",
+      "adc": "Diable",
+      "support": "PlanB"
     },
     "subs": {},
-    "verified_at": "2026-05-05T02:46:54.766882+00:00",
-    "source": "https://liquipedia.net/leagueoflegends/LCK_Challengers_League/2026/Season",
-    "verified_by": "cli"
+    "verified_at": "2026-05-22T02:13:15.397154+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
   },
   "NSC": {
     "full_name": "NS RedForce Challengers",
@@ -328,5 +328,125 @@
     "verified_at": "2026-05-05T03:52:28.875640+00:00",
     "source": "https://liquipedia.net/leagueoflegends/Esports_World_Cup/2026/Korea_Qualifier",
     "verified_by": "cli"
+  },
+  "BRO.C": {
+    "full_name": "BRION Challengers",
+    "league": "LCK",
+    "players": {
+      "top": "Morgan",
+      "jungle": "Gideon",
+      "mid": "Karis",
+      "adc": "Hena",
+      "support": "Effort"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.353171+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "DNS": {
+    "full_name": "DN SOOPers",
+    "league": "LCK",
+    "players": {
+      "top": "DnDn",
+      "jungle": "Sylvie",
+      "mid": "FIESTA",
+      "adc": "vital",
+      "support": "Peter"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.446409+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "DRX": {
+    "full_name": "DRX",
+    "league": "LCK",
+    "players": {
+      "top": "Rascal",
+      "jungle": "Juhan",
+      "mid": "FATE",
+      "adc": "Paduck",
+      "support": "Pleata"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.446626+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "WBG": {
+    "full_name": "Weibo Gaming",
+    "league": "LPL",
+    "players": {
+      "top": "Zdz",
+      "jungle": "Xiaohao",
+      "mid": "Xiaohu",
+      "adc": "Light",
+      "support": "Crisp"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.494841+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "JDG": {
+    "full_name": "JD Gaming",
+    "league": "LPL",
+    "players": {
+      "top": "Flandre",
+      "jungle": "Kanavi",
+      "mid": "Yagao",
+      "adc": "Ruler",
+      "support": "MISSING"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.495069+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "GEN": {
+    "full_name": "GEN.G",
+    "league": "LCK",
+    "players": {
+      "top": "Kiin",
+      "jungle": "Canyon",
+      "mid": "Chovy",
+      "adc": "Peyz",
+      "support": "Lehends"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.553138+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "SU": {
+    "full_name": "SU Esports",
+    "league": "LPL",
+    "players": {
+      "top": "Juuzou",
+      "jungle": "Elramir",
+      "mid": "Bolulu",
+      "adc": "Luger",
+      "support": "Jactroll"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.598182+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
+  },
+  "PCIFIC": {
+    "full_name": "Pcific Esports",
+    "league": "LPL",
+    "players": {
+      "top": "Lourlo",
+      "jungle": "Kirei",
+      "mid": "Kofte",
+      "adc": "Bao",
+      "support": "Parus"
+    },
+    "subs": {},
+    "verified_at": "2026-05-22T02:13:15.598406+00:00",
+    "source": "auto_scheduler_refresh",
+    "verified_by": "agent"
   }
 }

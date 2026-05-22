@@ -601,7 +601,7 @@ class DeterministicLoL:
                         verdict = f"LEAN{' (⚠️ Value Trap)' if has_trap else ''}"
                     else:
                         verdict = 'NO EDGE'
-                    print(f"  MARKET: {label} @ {odds_val:+d} (implied {imp:.1f}%)")
+                    print(f"  MARKET: {label} @ {odds_val} (implied {imp:.1f}%)")
                     print(f"  MODEL:  {model_p*100:.1f}% | EDGE: {edge:+.1f}% | KELLY: {kelly*100:.2f}%")
                     print(f"  VERDICT: {verdict}")
                     print()

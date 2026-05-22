@@ -907,6 +907,76 @@
             font-size: 0.95rem;
             letter-spacing: 0.05em;
         }
+        /* --- MOBILE RESPONSIVENESS --- */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px 10px;
+            }
+            header {
+                padding: 20px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+            .logo-container {
+                gap: 12px;
+            }
+            .hextech-crest-coin {
+                width: 45px;
+                height: 45px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            .header-brand-info span {
+                font-size: 0.7rem;
+            }
+            .header-meta {
+                align-items: flex-start;
+                width: 100%;
+            }
+            .timestamp {
+                font-size: 0.75rem;
+                padding: 8px 12px;
+                text-align: left;
+                width: 100%;
+            }
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+            .controls-card {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 15px;
+            }
+            .search-container {
+                max-width: 100%;
+            }
+            .slate-card-header {
+                padding: 15px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .slate-card-header h2 {
+                font-size: 1.15rem;
+            }
+            th, td {
+                padding: 12px 15px;
+                font-size: 0.85rem;
+            }
+            .kpi-value {
+                font-size: 1.3rem;
+            }
+            .parlay-card-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .parlay-card-meta {
+                text-align: left;
+            }
+        }
     </style>
 </head>
 <body>
@@ -927,7 +997,7 @@
                 <div class="sim-engine-badge">100k Simulations Active</div>
                 <div class="timestamp">
                     SLATE DATE: 2026-05-21<br>
-                    <span style="font-size: 0.72rem; color: var(--text-muted)">UPDATED: May 22, 2026 at 00:09 UTC</span>
+                    <span style="font-size: 0.72rem; color: var(--text-muted)">UPDATED: May 22, 2026 at 01:12 UTC</span>
                 </div>
             </div>
         </header>
@@ -941,12 +1011,12 @@
             </div>
             <div class="kpi-card" style="border-left-color: var(--secondary-light);">
                 <div class="kpi-label">🔥 Esports Expected Value Edge</div>
-                <div class="kpi-value"><span class="kpi-value-gold">KT ML</span></div>
-                <div class="kpi-subtext">💵 Proj. Edge: +55.7% EV vs Bookmaker Price</div>
+                <div class="kpi-value"><span class="kpi-value-gold">BRO.C ML</span></div>
+                <div class="kpi-subtext">💵 Proj. Edge: +190.1% EV vs Bookmaker Price</div>
             </div>
             <div class="kpi-card" style="border-left-color: var(--primary);">
                 <div class="kpi-label">💎 Peak Ensemble Confidence</div>
-                <div class="kpi-value"><span class="kpi-value-gold">80.0%</span></div>
+                <div class="kpi-value"><span class="kpi-value-gold">75.9%</span></div>
                 <div class="kpi-subtext">📈 Strongest mathematical signal on slate</div>
             </div>
             <div class="kpi-card" style="border-left-color: var(--void-purple);">
@@ -964,24 +1034,24 @@
                     <span class="parlay-card-icon">🏆</span> Nexus Parlay of the Day
                 </div>
                 <div class="parlay-card-meta">
-                    <div class="parlay-card-odds">+157</div>
-                    <div class="parlay-card-winrate">Proj. Win Rate: 68.9%</div>
+                    <div class="parlay-card-odds">+242</div>
+                    <div class="parlay-card-winrate">Proj. Win Rate: 76.0%</div>
                 </div>
             </div>
             <div class="parlay-legs-container">
                 
             <div class="parlay-leg">
                 <div class="parlay-leg-title">
-                    <span class="parlay-leg-bullet">⚡</span> Over 6.5 Assists <span class="parlay-leg-odds">(-118)</span>
+                    <span class="parlay-leg-bullet">⚡</span> Over 3.5 CS <span class="parlay-leg-odds">(-118)</span>
                 </div>
-                <div class="parlay-leg-sub">WBG vs JDG • DFS</div>
+                <div class="parlay-leg-sub">KT.C vs BFXY • DFS</div>
             </div>
             
             <div class="parlay-leg">
                 <div class="parlay-leg-title">
-                    <span class="parlay-leg-bullet">⚡</span> BFXY +1.5 Spread <span class="parlay-leg-odds">(-257)</span>
+                    <span class="parlay-leg-bullet">⚡</span> Over 3.5 Assists <span class="parlay-leg-odds">(-118)</span>
                 </div>
-                <div class="parlay-leg-sub">KT.C vs BFXY • LCK CL</div>
+                <div class="parlay-leg-sub">SU vs PCIFIC • DFS</div>
             </div>
             
             </div>
@@ -993,31 +1063,31 @@
                     <span class="parlay-card-icon">🔮</span> Void Lotto of the Day
                 </div>
                 <div class="parlay-card-meta">
-                    <div class="parlay-card-odds">+440</div>
-                    <div class="parlay-card-winrate">Proj. Win Rate: 50.3%</div>
+                    <div class="parlay-card-odds">+533</div>
+                    <div class="parlay-card-winrate">Proj. Win Rate: 66.0%</div>
                 </div>
             </div>
             <div class="parlay-legs-container">
                 
             <div class="parlay-leg">
                 <div class="parlay-leg-title">
-                    <span class="parlay-leg-bullet">⚡</span> Over 6.5 Assists <span class="parlay-leg-odds">(-118)</span>
+                    <span class="parlay-leg-bullet">⚡</span> Over 3.5 CS <span class="parlay-leg-odds">(-118)</span>
                 </div>
-                <div class="parlay-leg-sub">WBG vs JDG • DFS</div>
+                <div class="parlay-leg-sub">KT.C vs BFXY • DFS</div>
             </div>
             
             <div class="parlay-leg">
                 <div class="parlay-leg-title">
-                    <span class="parlay-leg-bullet">⚡</span> Over 4.5 Kills <span class="parlay-leg-odds">(-118)</span>
+                    <span class="parlay-leg-bullet">⚡</span> Over 3.5 Assists <span class="parlay-leg-odds">(-118)</span>
                 </div>
-                <div class="parlay-leg-sub">GEN vs KT • DFS</div>
+                <div class="parlay-leg-sub">SU vs PCIFIC • DFS</div>
             </div>
             
             <div class="parlay-leg">
                 <div class="parlay-leg-title">
-                    <span class="parlay-leg-bullet">⚡</span> DNS +1.5 Spread <span class="parlay-leg-odds">(-173)</span>
+                    <span class="parlay-leg-bullet">⚡</span> Over 3.0 Assists <span class="parlay-leg-odds">(-118)</span>
                 </div>
-                <div class="parlay-leg-sub">DNS vs DRX • LCK</div>
+                <div class="parlay-leg-sub">DNS vs DRX • DFS</div>
             </div>
             
             </div>
@@ -1060,317 +1130,17 @@
                     </thead>
                     <tbody>
                         
-        <tr class="main-row " onclick="toggleRow(this)" data-search="dns drx lck">
-            <td>
-                <div class="matchup-container">
-                    <div class="team-cell">
-                        <span class="team-name cyan-text">DNS</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">DuDu.. Peter</span>
-                    </div>
-                    <div class="vs-divider">VS</div>
-                    <div class="team-cell">
-                        <span class="team-name purple-text">DRX</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Rich.. Andil</span>
-                    </div>
-                    
-                </div>
-            </td>
-            <td class="mono" style="color: var(--primary);">Bo3 Series</td>
-            <td>
-                <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
-            </td>
-            <td>
-                <div class="market-val mono">+210 / -285</div>
-            </td>
-            <td style="width: 250px;">
-                <div class="win-prob-bar-container">
-                    <div class="win-prob-bar away" style="width: 47.09004150633684%;">47.1%</div>
-                    <div class="win-prob-bar home" style="width: 52.909958493663154%;">52.9%</div>
-                </div>
-            </td>
-            <td>
-                <span class="badge badge-ev">DNS ML (5.5%)</span>
-            </td>
-            <td>
-                <span class="row-expand-arrow">▼</span>
-            </td>
-        </tr>
-        <tr class="detail-row" style="display: none;">
-            <td colspan="7">
-                <div class="drawer-content">
-                    <div class="drawer-section">
-                        <h4>⚔️ Verified Lane Matchups</h4>
-                        <div class="lane-matchups-container">
-                            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Top</span>
-                <span class="lane-player cyan-text">DuDu</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Rich</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Jungle</span>
-                <span class="lane-player cyan-text">Pyosik</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Willer</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Mid</span>
-                <span class="lane-player cyan-text">Clozer</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Ucal</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Bot</span>
-                <span class="lane-player cyan-text">deokdam</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">LazyFeel</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Support</span>
-                <span class="lane-player cyan-text">Peter</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Andil</span>
-            </div>
-            
-                        </div>
-                    </div>
-                    <div class="drawer-section">
-                        <h4>🔮 Precise Score Matrix</h4>
-                        <div class="score-matrix-container">
-                            
-            <div class="score-prog-item">
-                <span class="score-prog-label">1-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 23.735999999999997%;"></div>
-                </div>
-                <span class="score-prog-val">23.7%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">2-0</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 27.85%;"></div>
-                </div>
-                <span class="score-prog-val">27.9%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">2-1</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 26.413999999999998%;"></div>
-                </div>
-                <span class="score-prog-val">26.4%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">0-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 22.0%;"></div>
-                </div>
-                <span class="score-prog-val">22.0%</span>
-            </div>
-            
-                        </div>
-                    </div>
-                    <div class="drawer-section">
-                        <h4>🛡️ Predictor Diagnostics</h4>
-                        <div class="diagnostics-box" style="margin-bottom: 12px;">
-                            
-            📊 <strong>GBDT Ensemble Consensus</strong><br>
-            • Pure GBDT Win Prob: 62.0%<br>
-            • Deterministic Win Prob: 52.7%<br>
-            • Blended Consensus: 0.0% (60/40 Blend)
-            
-                        </div>
-                        <div class="diagnostics-box">
-                            <strong>🌉 Bayesian Market Anchoring</strong><br>
-                            <span style="font-size: 0.78rem; line-height: 1.3;">
-                ⚠️ <strong>Anchoring Active</strong> (Divergence: 23.9%)<br>
-                • Pre-Anchor Proj: 54.3%<br>
-                • Market Vig-Free: 30.4%<br>
-                • Blended Post-Anchor: 47.1% (Blend Weight: 30.0%)
-                </span>
-                        </div>
-                    </div>
-                    <div class="drawer-section">
-                        <h4>⚠️ Value Trap Warnings</h4>
-                        <ul class="value-traps-list">
-                            <li>🟢 No active value traps detected.</li>
-                        </ul>
-                        <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
-                            <strong>Simulated At:</strong> 2026-05-22 00:09 UTC • Bovada Price Linked
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        
-        <tr class="main-row " onclick="toggleRow(this)" data-search="kt gen lck">
-            <td>
-                <div class="matchup-container">
-                    <div class="team-cell">
-                        <span class="team-name cyan-text">KT</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">PerfecT.. Effort</span>
-                    </div>
-                    <div class="vs-divider">VS</div>
-                    <div class="team-cell">
-                        <span class="team-name purple-text">GEN</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Kiin.. Duro</span>
-                    </div>
-                    
-                </div>
-            </td>
-            <td class="mono" style="color: var(--primary);">Bo3 Series</td>
-            <td>
-                <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
-            </td>
-            <td>
-                <div class="market-val mono">+305 / -460</div>
-            </td>
-            <td style="width: 250px;">
-                <div class="win-prob-bar-container">
-                    <div class="win-prob-bar away" style="width: 38.43285211337073%;">38.4%</div>
-                    <div class="win-prob-bar home" style="width: 61.56714788662927%;">61.6%</div>
-                </div>
-            </td>
-            <td>
-                <span class="badge badge-ev">KT ML (4.6%)</span>
-            </td>
-            <td>
-                <span class="row-expand-arrow">▼</span>
-            </td>
-        </tr>
-        <tr class="detail-row" style="display: none;">
-            <td colspan="7">
-                <div class="drawer-content">
-                    <div class="drawer-section">
-                        <h4>⚔️ Verified Lane Matchups</h4>
-                        <div class="lane-matchups-container">
-                            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Top</span>
-                <span class="lane-player cyan-text">PerfecT</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Kiin</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Jungle</span>
-                <span class="lane-player cyan-text">Cuzz</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Canyon</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Mid</span>
-                <span class="lane-player cyan-text">Bdd</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Chovy</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Bot</span>
-                <span class="lane-player cyan-text">Aiming</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Ruler</span>
-            </div>
-            
-            <div class="lane-matchup-row">
-                <span class="lane-role">Support</span>
-                <span class="lane-player cyan-text">Effort</span>
-                <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Duro</span>
-            </div>
-            
-                        </div>
-                    </div>
-                    <div class="drawer-section">
-                        <h4>🔮 Precise Score Matrix</h4>
-                        <div class="score-matrix-container">
-                            
-            <div class="score-prog-item">
-                <span class="score-prog-label">0-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 28.445999999999998%;"></div>
-                </div>
-                <span class="score-prog-val">28.4%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">2-0</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 21.791%;"></div>
-                </div>
-                <span class="score-prog-val">21.8%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">1-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 26.555%;"></div>
-                </div>
-                <span class="score-prog-val">26.6%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">2-1</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 23.208000000000002%;"></div>
-                </div>
-                <span class="score-prog-val">23.2%</span>
-            </div>
-            
-                        </div>
-                    </div>
-                    <div class="drawer-section">
-                        <h4>🛡️ Predictor Diagnostics</h4>
-                        <div class="diagnostics-box" style="margin-bottom: 12px;">
-                            
-            📊 <strong>GBDT Ensemble Consensus</strong><br>
-            • Pure GBDT Win Prob: 53.8%<br>
-            • Deterministic Win Prob: 46.6%<br>
-            • Blended Consensus: 0.0% (60/40 Blend)
-            
-                        </div>
-                        <div class="diagnostics-box">
-                            <strong>🌉 Bayesian Market Anchoring</strong><br>
-                            <span style="font-size: 0.78rem; line-height: 1.3;">
-                ⚠️ <strong>Anchoring Active</strong> (Divergence: 21.9%)<br>
-                • Pre-Anchor Proj: 45.0%<br>
-                • Market Vig-Free: 23.1%<br>
-                • Blended Post-Anchor: 38.4% (Blend Weight: 30.0%)
-                </span>
-                        </div>
-                    </div>
-                    <div class="drawer-section">
-                        <h4>⚠️ Value Trap Warnings</h4>
-                        <ul class="value-traps-list">
-                            <li>🟢 No active value traps detected.</li>
-                        </ul>
-                        <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
-                            <strong>Simulated At:</strong> 2026-05-22 00:09 UTC • Bovada Price Linked
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        
-        <tr class="main-row " onclick="toggleRow(this)" data-search="bro.c t1.ea lck cl">
+        <tr class="main-row " onclick="toggleRow(this)" data-search="bro.c t1.ea lck">
             <td>
                 <div class="matchup-container">
                     <div class="team-cell">
                         <span class="team-name cyan-text">BRO.C</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">DDahyuk.. PlanB</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T1.. S1</span>
                     </div>
                     <div class="vs-divider">VS</div>
                     <div class="team-cell">
                         <span class="team-name purple-text">T1.EA</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Haetae.. Cloud</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T2.. S2</span>
                     </div>
                     
                 </div>
@@ -1384,12 +1154,12 @@
             </td>
             <td style="width: 250px;">
                 <div class="win-prob-bar-container">
-                    <div class="win-prob-bar away" style="width: 21.902%;">21.9%</div>
-                    <div class="win-prob-bar home" style="width: 78.098%;">78.1%</div>
+                    <div class="win-prob-bar away" style="width: 50.014%;">50.0%</div>
+                    <div class="win-prob-bar home" style="width: 49.986%;">50.0%</div>
                 </div>
             </td>
             <td>
-                <span class="badge badge-ev">BRO.C ML (1.4%)</span>
+                <span class="badge badge-ev">BRO.C ML (9.9%)</span>
             </td>
             <td>
                 <span class="row-expand-arrow">▼</span>
@@ -1404,37 +1174,37 @@
                             
             <div class="lane-matchup-row">
                 <span class="lane-role">Top</span>
-                <span class="lane-player cyan-text">DDahyuk</span>
+                <span class="lane-player cyan-text">T1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Haetae</span>
+                <span class="lane-player purple-text">T2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Jungle</span>
-                <span class="lane-player cyan-text">Dinai</span>
+                <span class="lane-player cyan-text">J1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Painter</span>
+                <span class="lane-player purple-text">J2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Mid</span>
-                <span class="lane-player cyan-text">Tempester</span>
+                <span class="lane-player cyan-text">M1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Guti</span>
+                <span class="lane-player purple-text">M2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Bot</span>
-                <span class="lane-player cyan-text">OddEye</span>
+                <span class="lane-player cyan-text">B1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Cypher</span>
+                <span class="lane-player purple-text">B2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Support</span>
-                <span class="lane-player cyan-text">PlanB</span>
+                <span class="lane-player cyan-text">S1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Cloud</span>
+                <span class="lane-player purple-text">S2</span>
             </div>
             
                         </div>
@@ -1444,35 +1214,35 @@
                         <div class="score-matrix-container">
                             
             <div class="score-prog-item">
-                <span class="score-prog-label">1-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 29.160000000000004%;"></div>
-                </div>
-                <span class="score-prog-val">29.2%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">0-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 48.937999999999995%;"></div>
-                </div>
-                <span class="score-prog-val">48.9%</span>
-            </div>
-            
-            <div class="score-prog-item">
                 <span class="score-prog-label">2-0</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 9.152000000000001%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 25.010682293213904%;"></div>
                 </div>
-                <span class="score-prog-val">9.2%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
                 <span class="score-prog-label">2-1</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 12.75%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 25.005339435058005%;"></div>
                 </div>
-                <span class="score-prog-val">12.8%</span>
+                <span class="score-prog-val">25.0%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">1-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 24.994658283201687%;"></div>
+                </div>
+                <span class="score-prog-val">25.0%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">0-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 24.989319988526404%;"></div>
+                </div>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
                         </div>
@@ -1480,12 +1250,7 @@
                     <div class="drawer-section">
                         <h4>🛡️ Predictor Diagnostics</h4>
                         <div class="diagnostics-box" style="margin-bottom: 12px;">
-                            
-            📊 <strong>GBDT Ensemble Consensus</strong><br>
-            • Pure GBDT Win Prob: 65.7%<br>
-            • Deterministic Win Prob: 30.2%<br>
-            • Blended Consensus: 0.0% (60/40 Blend)
-            
+                            🟢 No GBDT ML predictions available.
                         </div>
                         <div class="diagnostics-box">
                             <strong>🌉 Bayesian Market Anchoring</strong><br>
@@ -1498,19 +1263,19 @@
                             <li>🟢 No active value traps detected.</li>
                         </ul>
                         <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
-                            <strong>Simulated At:</strong> 2026-05-22 00:09 UTC • Bovada Price Linked
+                            <strong>Simulated At:</strong> 2026-05-22 01:12 UTC • Bovada Price Linked
                         </div>
                     </div>
                 </div>
             </td>
         </tr>
         
-        <tr class="main-row " onclick="toggleRow(this)" data-search="kt.c bfxy lck cl">
+        <tr class="main-row " onclick="toggleRow(this)" data-search="kt.c bfxy lck">
             <td>
                 <div class="matchup-container">
                     <div class="team-cell">
                         <span class="team-name cyan-text">KT.C</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Sero.. Effort</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">Sero.. Pollu</span>
                     </div>
                     <div class="vs-divider">VS</div>
                     <div class="team-cell">
@@ -1525,16 +1290,16 @@
                 <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
             </td>
             <td>
-                <div class="market-val mono">-175 / +135</div>
+                <div class="market-val mono">-263 / +180</div>
             </td>
             <td style="width: 250px;">
                 <div class="win-prob-bar-container">
-                    <div class="win-prob-bar away" style="width: 38.055670055839336%;">38.1%</div>
-                    <div class="win-prob-bar home" style="width: 61.94432994416066%;">61.9%</div>
+                    <div class="win-prob-bar away" style="width: 24.146%;">24.1%</div>
+                    <div class="win-prob-bar home" style="width: 75.854%;">75.9%</div>
                 </div>
             </td>
             <td>
-                <span class="badge badge-ev">BFXY ML (8.4%)</span>
+                <span class="badge badge-ev">BFXY ML (15.6%)</span>
             </td>
             <td>
                 <span class="row-expand-arrow">▼</span>
@@ -1577,7 +1342,7 @@
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Support</span>
-                <span class="lane-player cyan-text">Effort</span>
+                <span class="lane-player cyan-text">Pollu</span>
                 <span class="lane-vs">VS</span>
                 <span class="lane-player purple-text">Luon</span>
             </div>
@@ -1589,35 +1354,35 @@
                         <div class="score-matrix-container">
                             
             <div class="score-prog-item">
-                <span class="score-prog-label">1-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 28.909000000000002%;"></div>
-                </div>
-                <span class="score-prog-val">28.9%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">0-2</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 36.895%;"></div>
-                </div>
-                <span class="score-prog-val">36.9%</span>
-            </div>
-            
-            <div class="score-prog-item">
                 <span class="score-prog-label">2-0</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 15.508%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 10.229729139246047%;"></div>
                 </div>
-                <span class="score-prog-val">15.5%</span>
+                <span class="score-prog-val">10.2%</span>
             </div>
             
             <div class="score-prog-item">
                 <span class="score-prog-label">2-1</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 18.688%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 13.915715831966935%;"></div>
                 </div>
-                <span class="score-prog-val">18.7%</span>
+                <span class="score-prog-val">13.9%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">1-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 29.592721397353472%;"></div>
+                </div>
+                <span class="score-prog-val">29.6%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">0-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 46.26183363143355%;"></div>
+                </div>
+                <span class="score-prog-val">46.3%</span>
             </div>
             
                         </div>
@@ -1625,21 +1390,11 @@
                     <div class="drawer-section">
                         <h4>🛡️ Predictor Diagnostics</h4>
                         <div class="diagnostics-box" style="margin-bottom: 12px;">
-                            
-            📊 <strong>GBDT Ensemble Consensus</strong><br>
-            • Pure GBDT Win Prob: 61.1%<br>
-            • Deterministic Win Prob: 39.3%<br>
-            • Blended Consensus: 0.0% (60/40 Blend)
-            
+                            🟢 No GBDT ML predictions available.
                         </div>
                         <div class="diagnostics-box">
                             <strong>🌉 Bayesian Market Anchoring</strong><br>
-                            <span style="font-size: 0.78rem; line-height: 1.3;">
-                ⚠️ <strong>Anchoring Active</strong> (Divergence: 25.7%)<br>
-                • Pre-Anchor Proj: 34.2%<br>
-                • Market Vig-Free: 59.9%<br>
-                • Blended Post-Anchor: 38.1% (Blend Weight: 15.0%)
-                </span>
+                            <span style="font-size: 0.78rem; line-height: 1.3;">🟢 Raw model predictions are fully aligned with market price.</span>
                         </div>
                     </div>
                     <div class="drawer-section">
@@ -1648,24 +1403,24 @@
                             <li>🟢 No active value traps detected.</li>
                         </ul>
                         <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
-                            <strong>Simulated At:</strong> 2026-05-22 00:09 UTC • Bovada Price Linked
+                            <strong>Simulated At:</strong> 2026-05-22 01:12 UTC • Bovada Price Linked
                         </div>
                     </div>
                 </div>
             </td>
         </tr>
         
-        <tr class="main-row " onclick="toggleRow(this)" data-search="jdg wbg lpl">
+        <tr class="main-row " onclick="toggleRow(this)" data-search="dns drx lck">
             <td>
                 <div class="matchup-container">
                     <div class="team-cell">
-                        <span class="team-name cyan-text">JDG</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Xiaoxu.. Vampire</span>
+                        <span class="team-name cyan-text">DNS</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T1.. S1</span>
                     </div>
                     <div class="vs-divider">VS</div>
                     <div class="team-cell">
-                        <span class="team-name purple-text">WBG</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Zika.. Hang</span>
+                        <span class="team-name purple-text">DRX</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T2.. S2</span>
                     </div>
                     
                 </div>
@@ -1675,16 +1430,16 @@
                 <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
             </td>
             <td>
-                <div class="market-val mono">-165 / +125</div>
+                <div class="market-val mono">+190 / -286</div>
             </td>
             <td style="width: 250px;">
                 <div class="win-prob-bar-container">
-                    <div class="win-prob-bar away" style="width: 49.936%;">49.9%</div>
-                    <div class="win-prob-bar home" style="width: 50.064%;">50.1%</div>
+                    <div class="win-prob-bar away" style="width: 49.992%;">50.0%</div>
+                    <div class="win-prob-bar home" style="width: 50.00800000000001%;">50.0%</div>
                 </div>
             </td>
             <td>
-                <span class="badge badge-ev">WBG ML (2.5%)</span>
+                <span class="badge badge-ev">DNS ML (5.9%)</span>
             </td>
             <td>
                 <span class="row-expand-arrow">▼</span>
@@ -1699,37 +1454,37 @@
                             
             <div class="lane-matchup-row">
                 <span class="lane-role">Top</span>
-                <span class="lane-player cyan-text">Xiaoxu</span>
+                <span class="lane-player cyan-text">T1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Zika</span>
+                <span class="lane-player purple-text">T2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Jungle</span>
-                <span class="lane-player cyan-text">JunJia</span>
+                <span class="lane-player cyan-text">J1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Jiejie</span>
+                <span class="lane-player purple-text">J2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Mid</span>
-                <span class="lane-player cyan-text">HongQ</span>
+                <span class="lane-player cyan-text">M1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Xiaohu</span>
+                <span class="lane-player purple-text">M2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Bot</span>
-                <span class="lane-player cyan-text">GALA</span>
+                <span class="lane-player cyan-text">B1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Elk</span>
+                <span class="lane-player purple-text">B2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Support</span>
-                <span class="lane-player cyan-text">Vampire</span>
+                <span class="lane-player cyan-text">S1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Hang</span>
+                <span class="lane-player purple-text">S2</span>
             </div>
             
                         </div>
@@ -1739,51 +1494,35 @@
                         <div class="score-matrix-container">
                             
             <div class="score-prog-item">
-                <span class="score-prog-label">2-3</span>
+                <span class="score-prog-label">2-0</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 18.770999999999997%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 24.99542257282883%;"></div>
                 </div>
-                <span class="score-prog-val">18.8%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
-                <span class="score-prog-label">0-3</span>
+                <span class="score-prog-label">2-1</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 12.558%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 24.99771097211223%;"></div>
                 </div>
-                <span class="score-prog-val">12.6%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
-                <span class="score-prog-label">3-2</span>
+                <span class="score-prog-label">1-2</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 18.719%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 25.00228860879261%;"></div>
                 </div>
-                <span class="score-prog-val">18.7%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
-                <span class="score-prog-label">1-3</span>
+                <span class="score-prog-label">0-2</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 18.607000000000003%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 25.00457784626633%;"></div>
                 </div>
-                <span class="score-prog-val">18.6%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">3-1</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 18.772%;"></div>
-                </div>
-                <span class="score-prog-val">18.8%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">3-0</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 12.573%;"></div>
-                </div>
-                <span class="score-prog-val">12.6%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
                         </div>
@@ -1791,12 +1530,7 @@
                     <div class="drawer-section">
                         <h4>🛡️ Predictor Diagnostics</h4>
                         <div class="diagnostics-box" style="margin-bottom: 12px;">
-                            
-            📊 <strong>GBDT Ensemble Consensus</strong><br>
-            • Pure GBDT Win Prob: 53.8%<br>
-            • Deterministic Win Prob: 50.0%<br>
-            • Blended Consensus: 0.0% (60/40 Blend)
-            
+                            🟢 No GBDT ML predictions available.
                         </div>
                         <div class="diagnostics-box">
                             <strong>🌉 Bayesian Market Anchoring</strong><br>
@@ -1809,24 +1543,304 @@
                             <li>🟢 No active value traps detected.</li>
                         </ul>
                         <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
-                            <strong>Simulated At:</strong> 2026-05-22 00:09 UTC • Bovada Price Linked
+                            <strong>Simulated At:</strong> 2026-05-22 01:12 UTC • Bovada Price Linked
                         </div>
                     </div>
                 </div>
             </td>
         </tr>
         
-        <tr class="main-row " onclick="toggleRow(this)" data-search="su pcific tcl">
+        <tr class="main-row " onclick="toggleRow(this)" data-search="wbg jdg lck">
+            <td>
+                <div class="matchup-container">
+                    <div class="team-cell">
+                        <span class="team-name cyan-text">WBG</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T1.. S1</span>
+                    </div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team-cell">
+                        <span class="team-name purple-text">JDG</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T2.. S2</span>
+                    </div>
+                    
+                </div>
+            </td>
+            <td class="mono" style="color: var(--primary);">Bo3 Series</td>
+            <td>
+                <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
+            </td>
+            <td>
+                <div class="market-val mono">+117 / -154</div>
+            </td>
+            <td style="width: 250px;">
+                <div class="win-prob-bar-container">
+                    <div class="win-prob-bar away" style="width: 50.43%;">50.4%</div>
+                    <div class="win-prob-bar home" style="width: 49.57%;">49.6%</div>
+                </div>
+            </td>
+            <td>
+                <span class="badge badge-ev">WBG ML (2.0%)</span>
+            </td>
+            <td>
+                <span class="row-expand-arrow">▼</span>
+            </td>
+        </tr>
+        <tr class="detail-row" style="display: none;">
+            <td colspan="7">
+                <div class="drawer-content">
+                    <div class="drawer-section">
+                        <h4>⚔️ Verified Lane Matchups</h4>
+                        <div class="lane-matchups-container">
+                            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Top</span>
+                <span class="lane-player cyan-text">T1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">T2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Jungle</span>
+                <span class="lane-player cyan-text">J1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">J2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Mid</span>
+                <span class="lane-player cyan-text">M1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">M2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Bot</span>
+                <span class="lane-player cyan-text">B1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">B2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Support</span>
+                <span class="lane-player cyan-text">S1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">S2</span>
+            </div>
+            
+                        </div>
+                    </div>
+                    <div class="drawer-section">
+                        <h4>🔮 Precise Score Matrix</h4>
+                        <div class="score-matrix-container">
+                            
+            <div class="score-prog-item">
+                <span class="score-prog-label">2-0</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 25.286153540946543%;"></div>
+                </div>
+                <span class="score-prog-val">25.3%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">2-1</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 25.141850845873392%;"></div>
+                </div>
+                <span class="score-prog-val">25.1%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">1-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 24.85652078317102%;"></div>
+                </div>
+                <span class="score-prog-val">24.9%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">0-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 24.715474830009043%;"></div>
+                </div>
+                <span class="score-prog-val">24.7%</span>
+            </div>
+            
+                        </div>
+                    </div>
+                    <div class="drawer-section">
+                        <h4>🛡️ Predictor Diagnostics</h4>
+                        <div class="diagnostics-box" style="margin-bottom: 12px;">
+                            🟢 No GBDT ML predictions available.
+                        </div>
+                        <div class="diagnostics-box">
+                            <strong>🌉 Bayesian Market Anchoring</strong><br>
+                            <span style="font-size: 0.78rem; line-height: 1.3;">🟢 Raw model predictions are fully aligned with market price.</span>
+                        </div>
+                    </div>
+                    <div class="drawer-section">
+                        <h4>⚠️ Value Trap Warnings</h4>
+                        <ul class="value-traps-list">
+                            <li>🟢 No active value traps detected.</li>
+                        </ul>
+                        <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
+                            <strong>Simulated At:</strong> 2026-05-22 01:12 UTC • Bovada Price Linked
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr class="main-row " onclick="toggleRow(this)" data-search="kt gen lck">
+            <td>
+                <div class="matchup-container">
+                    <div class="team-cell">
+                        <span class="team-name cyan-text">KT</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T1.. S1</span>
+                    </div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team-cell">
+                        <span class="team-name purple-text">GEN</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T2.. S2</span>
+                    </div>
+                    
+                </div>
+            </td>
+            <td class="mono" style="color: var(--primary);">Bo3 Series</td>
+            <td>
+                <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
+            </td>
+            <td>
+                <div class="market-val mono">+280 / -455</div>
+            </td>
+            <td style="width: 250px;">
+                <div class="win-prob-bar-container">
+                    <div class="win-prob-bar away" style="width: 67.31899999999999%;">67.3%</div>
+                    <div class="win-prob-bar home" style="width: 32.681000000000004%;">32.7%</div>
+                </div>
+            </td>
+            <td>
+                <span class="badge badge-ev">KT ML (13.9%)</span>
+            </td>
+            <td>
+                <span class="row-expand-arrow">▼</span>
+            </td>
+        </tr>
+        <tr class="detail-row" style="display: none;">
+            <td colspan="7">
+                <div class="drawer-content">
+                    <div class="drawer-section">
+                        <h4>⚔️ Verified Lane Matchups</h4>
+                        <div class="lane-matchups-container">
+                            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Top</span>
+                <span class="lane-player cyan-text">T1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">T2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Jungle</span>
+                <span class="lane-player cyan-text">J1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">J2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Mid</span>
+                <span class="lane-player cyan-text">M1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">M2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Bot</span>
+                <span class="lane-player cyan-text">B1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">B2</span>
+            </div>
+            
+            <div class="lane-matchup-row">
+                <span class="lane-role">Support</span>
+                <span class="lane-player cyan-text">S1</span>
+                <span class="lane-vs">VS</span>
+                <span class="lane-player purple-text">S2</span>
+            </div>
+            
+                        </div>
+                    </div>
+                    <div class="drawer-section">
+                        <h4>🔮 Precise Score Matrix</h4>
+                        <div class="score-matrix-container">
+                            
+            <div class="score-prog-item">
+                <span class="score-prog-label">2-0</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 38.1466822931543%;"></div>
+                </div>
+                <span class="score-prog-val">38.1%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">2-1</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 29.172293444340625%;"></div>
+                </div>
+                <span class="score-prog-val">29.2%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">1-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 18.060342945913277%;"></div>
+                </div>
+                <span class="score-prog-val">18.1%</span>
+            </div>
+            
+            <div class="score-prog-item">
+                <span class="score-prog-label">0-2</span>
+                <div class="score-prog-bar-bg">
+                    <div class="score-prog-bar-fill" style="width: 14.6206813165918%;"></div>
+                </div>
+                <span class="score-prog-val">14.6%</span>
+            </div>
+            
+                        </div>
+                    </div>
+                    <div class="drawer-section">
+                        <h4>🛡️ Predictor Diagnostics</h4>
+                        <div class="diagnostics-box" style="margin-bottom: 12px;">
+                            🟢 No GBDT ML predictions available.
+                        </div>
+                        <div class="diagnostics-box">
+                            <strong>🌉 Bayesian Market Anchoring</strong><br>
+                            <span style="font-size: 0.78rem; line-height: 1.3;">🟢 Raw model predictions are fully aligned with market price.</span>
+                        </div>
+                    </div>
+                    <div class="drawer-section">
+                        <h4>⚠️ Value Trap Warnings</h4>
+                        <ul class="value-traps-list">
+                            <li>🟢 No active value traps detected.</li>
+                        </ul>
+                        <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
+                            <strong>Simulated At:</strong> 2026-05-22 01:12 UTC • Bovada Price Linked
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr class="main-row " onclick="toggleRow(this)" data-search="su pcific lck">
             <td>
                 <div class="matchup-container">
                     <div class="team-cell">
                         <span class="team-name cyan-text">SU</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Leks.. Seneca</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T1.. S1</span>
                     </div>
                     <div class="vs-divider">VS</div>
                     <div class="team-cell">
                         <span class="team-name purple-text">PCIFIC</span>
-                        <span class="pitcher-name" style="font-size: 0.72rem;">Aytekn.. Beplush</span>
+                        <span class="pitcher-name" style="font-size: 0.72rem;">T2.. S2</span>
                     </div>
                     
                 </div>
@@ -1836,16 +1850,16 @@
                 <div class="sim-engine-badge" style="font-size: 0.65rem; padding: 2px 6px;">GBDT Ensemble Blended</div>
             </td>
             <td>
-                <div class="market-val mono">-333 / +220</div>
+                <div class="market-val mono">-357 / +234</div>
             </td>
             <td style="width: 250px;">
                 <div class="win-prob-bar-container">
-                    <div class="win-prob-bar away" style="width: 80.0%;">80.0%</div>
-                    <div class="win-prob-bar home" style="width: 19.999999999999996%;">20.0%</div>
+                    <div class="win-prob-bar away" style="width: 50.041000000000004%;">50.0%</div>
+                    <div class="win-prob-bar home" style="width: 49.958999999999996%;">50.0%</div>
                 </div>
             </td>
             <td>
-                <span class="badge badge-ev">SU ML (3.3%)</span>
+                <span class="badge badge-ev">PCIFIC ML (7.1%)</span>
             </td>
             <td>
                 <span class="row-expand-arrow">▼</span>
@@ -1860,37 +1874,37 @@
                             
             <div class="lane-matchup-row">
                 <span class="lane-role">Top</span>
-                <span class="lane-player cyan-text">Leks</span>
+                <span class="lane-player cyan-text">T1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Aytekn</span>
+                <span class="lane-player purple-text">T2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Jungle</span>
-                <span class="lane-player cyan-text">Rames</span>
+                <span class="lane-player cyan-text">J1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Stalken</span>
+                <span class="lane-player purple-text">J2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Mid</span>
-                <span class="lane-player cyan-text">Secrett</span>
+                <span class="lane-player cyan-text">M1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">FireAscept</span>
+                <span class="lane-player purple-text">M2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Bot</span>
-                <span class="lane-player cyan-text">Vespa</span>
+                <span class="lane-player cyan-text">B1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Nawa</span>
+                <span class="lane-player purple-text">B2</span>
             </div>
             
             <div class="lane-matchup-row">
                 <span class="lane-role">Support</span>
-                <span class="lane-player cyan-text">Seneca</span>
+                <span class="lane-player cyan-text">S1</span>
                 <span class="lane-vs">VS</span>
-                <span class="lane-player purple-text">Beplush</span>
+                <span class="lane-player purple-text">S2</span>
             </div>
             
                         </div>
@@ -1900,51 +1914,35 @@
                         <div class="score-matrix-container">
                             
             <div class="score-prog-item">
-                <span class="score-prog-label">3-2</span>
+                <span class="score-prog-label">2-0</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 15.932776978417268%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 25.02594667021185%;"></div>
                 </div>
-                <span class="score-prog-val">15.9%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
-                <span class="score-prog-label">3-1</span>
+                <span class="score-prog-label">2-1</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 28.942733812949644%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 25.012963238406627%;"></div>
                 </div>
-                <span class="score-prog-val">28.9%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
-                <span class="score-prog-label">3-0</span>
+                <span class="score-prog-label">1-2</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 35.1244892086331%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 24.98702330398217%;"></div>
                 </div>
-                <span class="score-prog-val">35.1%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
             <div class="score-prog-item">
-                <span class="score-prog-label">1-3</span>
+                <span class="score-prog-label">0-2</span>
                 <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 6.908952380952381%;"></div>
+                    <div class="score-prog-bar-fill" style="width: 24.97406678739935%;"></div>
                 </div>
-                <span class="score-prog-val">6.9%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">0-3</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 3.204571428571428%;"></div>
-                </div>
-                <span class="score-prog-val">3.2%</span>
-            </div>
-            
-            <div class="score-prog-item">
-                <span class="score-prog-label">2-3</span>
-                <div class="score-prog-bar-bg">
-                    <div class="score-prog-bar-fill" style="width: 9.886476190476188%;"></div>
-                </div>
-                <span class="score-prog-val">9.9%</span>
+                <span class="score-prog-val">25.0%</span>
             </div>
             
                         </div>
@@ -1952,12 +1950,7 @@
                     <div class="drawer-section">
                         <h4>🛡️ Predictor Diagnostics</h4>
                         <div class="diagnostics-box" style="margin-bottom: 12px;">
-                            
-            📊 <strong>GBDT Ensemble Consensus</strong><br>
-            • Pure GBDT Win Prob: 70.8%<br>
-            • Deterministic Win Prob: 72.4%<br>
-            • Blended Consensus: 0.0% (60/40 Blend)
-            
+                            🟢 No GBDT ML predictions available.
                         </div>
                         <div class="diagnostics-box">
                             <strong>🌉 Bayesian Market Anchoring</strong><br>
@@ -1970,7 +1963,7 @@
                             <li>🟢 No active value traps detected.</li>
                         </ul>
                         <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 15px;">
-                            <strong>Simulated At:</strong> 2026-05-22 00:09 UTC • Bovada Price Linked
+                            <strong>Simulated At:</strong> 2026-05-22 01:12 UTC • Bovada Price Linked
                         </div>
                     </div>
                 </div>
@@ -2004,114 +1997,114 @@
                     </thead>
                     <tbody>
                         
-        <tr class="main-row" data-search="kt vs gen lck">
+        <tr class="main-row" data-search="bro.c vs t1.ea lck">
             <td class="mono leader-text" style="text-align: center;">1</td>
-            <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
-            <td>KT vs GEN</td>
-            <td class="cyan-text" style="font-weight: 700;">KT ML</td>
-            <td class="mono">+305</td>
-            <td class="mono">38.4% vs 24.7%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+55.7% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">Ensemble consensus favors S-Tier lane matchups or synergy advantages for KT.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="wbg vs jdg dfs">
-            <td class="mono leader-text" style="text-align: center;">2</td>
-            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
-            <td>WBG vs JDG</td>
-            <td class="cyan-text" style="font-weight: 700;">Ruler Over 6.5 Assists</td>
-            <td class="mono">-118</td>
-            <td class="mono">81.5% vs 54.1%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+50.8% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="gen vs kt dfs">
-            <td class="mono leader-text" style="text-align: center;">3</td>
-            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
-            <td>GEN vs KT</td>
-            <td class="cyan-text" style="font-weight: 700;">Deft Over 4.5 Kills</td>
-            <td class="mono">-118</td>
-            <td class="mono">79.1% vs 54.1%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+46.4% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.5 expected kills.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="dns vs drx lck">
-            <td class="mono leader-text" style="text-align: center;">4</td>
-            <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
-            <td>DNS vs DRX</td>
-            <td class="cyan-text" style="font-weight: 700;">DNS ML</td>
-            <td class="mono">+210</td>
-            <td class="mono">47.1% vs 32.3%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+46.0% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">Ensemble consensus favors S-Tier lane matchups or synergy advantages for DNS.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="kt.c vs bfxy lck cl">
-            <td class="mono leader-text" style="text-align: center;">5</td>
-            <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
-            <td>KT.C vs BFXY</td>
-            <td class="cyan-text" style="font-weight: 700;">BFXY ML</td>
-            <td class="mono">+135</td>
-            <td class="mono">61.9% vs 42.6%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+45.6% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">Strong underdog rating slide or recent form swing makes BFXY highly undervalued.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="wbg vs jdg dfs">
-            <td class="mono leader-text" style="text-align: center;">6</td>
-            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
-            <td>WBG vs JDG</td>
-            <td class="cyan-text" style="font-weight: 700;">Kanavi Over 7.5 Assists</td>
-            <td class="mono">-125</td>
-            <td class="mono">77.8% vs 55.6%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+40.0% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="gen vs kt dfs">
-            <td class="mono leader-text" style="text-align: center;">7</td>
-            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
-            <td>GEN vs KT</td>
-            <td class="cyan-text" style="font-weight: 700;">Chovy Over 5.5 Kills</td>
-            <td class="mono">-111</td>
-            <td class="mono">72.5% vs 52.6%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+37.7% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.5 expected kills.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="bro.c vs t1.ea lck cl">
-            <td class="mono leader-text" style="text-align: center;">8</td>
             <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
             <td>BRO.C vs T1.EA</td>
             <td class="cyan-text" style="font-weight: 700;">BRO.C ML</td>
             <td class="mono">+480</td>
-            <td class="mono">21.9% vs 17.2%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+27.0% EV</td>
+            <td class="mono">50.0% vs 17.2%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+190.1% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">Ensemble consensus favors S-Tier lane matchups or synergy advantages for BRO.C.</td>
         </tr>
         
-        <tr class="main-row" data-search="jdg vs wbg lpl">
-            <td class="mono leader-text" style="text-align: center;">9</td>
+        <tr class="main-row" data-search="kt vs gen lck">
+            <td class="mono leader-text" style="text-align: center;">2</td>
             <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
-            <td>JDG vs WBG</td>
-            <td class="cyan-text" style="font-weight: 700;">WBG ML</td>
-            <td class="mono">+125</td>
-            <td class="mono">50.1% vs 44.4%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+12.6% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">Strong underdog rating slide or recent form swing makes WBG highly undervalued.</td>
+            <td>KT vs GEN</td>
+            <td class="cyan-text" style="font-weight: 700;">KT ML</td>
+            <td class="mono">+280</td>
+            <td class="mono">67.3% vs 26.3%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+155.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">Ensemble consensus favors S-Tier lane matchups or synergy advantages for KT.</td>
         </tr>
         
-        <tr class="main-row" data-search="su vs pcific tcl">
-            <td class="mono leader-text" style="text-align: center;">10</td>
+        <tr class="main-row" data-search="kt.c vs bfxy lck">
+            <td class="mono leader-text" style="text-align: center;">3</td>
+            <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
+            <td>KT.C vs BFXY</td>
+            <td class="cyan-text" style="font-weight: 700;">BFXY ML</td>
+            <td class="mono">+180</td>
+            <td class="mono">75.9% vs 35.7%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+112.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">Strong underdog rating slide or recent form swing makes BFXY highly undervalued.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="su vs pcific lck">
+            <td class="mono leader-text" style="text-align: center;">4</td>
             <td style="color: var(--primary); font-weight: 700;">Match Winner</td>
             <td>SU vs PCIFIC</td>
-            <td class="cyan-text" style="font-weight: 700;">SU ML</td>
-            <td class="mono">-333</td>
-            <td class="mono">80.0% vs 76.9%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+4.0% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">Ensemble consensus favors S-Tier lane matchups or synergy advantages for SU.</td>
+            <td class="cyan-text" style="font-weight: 700;">PCIFIC ML</td>
+            <td class="mono">+234</td>
+            <td class="mono">50.0% vs 29.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+66.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">Strong underdog rating slide or recent form swing makes PCIFIC highly undervalued.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt.c vs bfxy dfs">
+            <td class="mono leader-text" style="text-align: center;">5</td>
+            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
+            <td>KT.C vs BFXY</td>
+            <td class="cyan-text" style="font-weight: 700;">Clear Over 3.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono">87.4% vs 54.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+61.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt.c vs bfxy dfs">
+            <td class="mono leader-text" style="text-align: center;">6</td>
+            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
+            <td>KT.C vs BFXY</td>
+            <td class="cyan-text" style="font-weight: 700;">SeTab Over 3.0 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono">87.4% vs 54.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+61.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt.c vs bfxy dfs">
+            <td class="mono leader-text" style="text-align: center;">7</td>
+            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
+            <td>KT.C vs BFXY</td>
+            <td class="cyan-text" style="font-weight: 700;">Way Over 4.0 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono">87.1% vs 54.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+61.1% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="su vs pcific dfs">
+            <td class="mono leader-text" style="text-align: center;">8</td>
+            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
+            <td>SU vs PCIFIC</td>
+            <td class="cyan-text" style="font-weight: 700;">Kirei Over 3.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono">86.9% vs 54.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="su vs pcific dfs">
+            <td class="mono leader-text" style="text-align: center;">9</td>
+            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
+            <td>SU vs PCIFIC</td>
+            <td class="cyan-text" style="font-weight: 700;">Kirei Over 3.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono">86.9% vs 54.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="dns vs drx dfs">
+            <td class="mono leader-text" style="text-align: center;">10</td>
+            <td style="color: var(--primary); font-weight: 700;">DFS Prop Bet</td>
+            <td>DNS vs DRX</td>
+            <td class="cyan-text" style="font-weight: 700;">Sylvie Over 3.0 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono">86.9% vs 54.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
         </tr>
         
                     </tbody>
@@ -2140,83 +2133,103 @@
                     </thead>
                     <tbody>
                         
-        <tr class="main-row" data-search="kt vs gen lck">
+        <tr class="main-row" data-search="bro.c vs t1.ea lck">
             <td class="mono leader-text" style="text-align: center;">1</td>
-            <td>KT vs GEN</td>
-            <td class="purple-text" style="font-weight: 700;">KT -1.5 Spread</td>
-            <td class="mono">+870</td>
-            <td class="mono glow-gold">21.8%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+111.4% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="dns vs drx lck">
-            <td class="mono leader-text" style="text-align: center;">2</td>
-            <td>DNS vs DRX</td>
-            <td class="purple-text" style="font-weight: 700;">DNS -1.5 Spread</td>
-            <td class="mono">+605</td>
-            <td class="mono glow-gold">27.9%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+96.4% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="kt.c vs bfxy lck cl">
-            <td class="mono leader-text" style="text-align: center;">3</td>
-            <td>KT.C vs BFXY</td>
-            <td class="purple-text" style="font-weight: 700;">BFXY -1.5 Spread</td>
-            <td class="mono">+402</td>
-            <td class="mono glow-gold">36.9%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+85.3% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="bro.c vs t1.ea lck cl">
-            <td class="mono leader-text" style="text-align: center;">4</td>
             <td>BRO.C vs T1.EA</td>
             <td class="purple-text" style="font-weight: 700;">BRO.C -1.5 Spread</td>
             <td class="mono">+1376</td>
-            <td class="mono glow-gold">9.2%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+35.1% EV</td>
+            <td class="mono glow-gold">25.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+269.2% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
         </tr>
         
         <tr class="main-row" data-search="kt vs gen lck">
-            <td class="mono leader-text" style="text-align: center;">5</td>
+            <td class="mono leader-text" style="text-align: center;">2</td>
             <td>KT vs GEN</td>
-            <td class="purple-text" style="font-weight: 700;">KT +1.5 Spread</td>
-            <td class="mono">-126</td>
-            <td class="mono glow-gold">71.6%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+28.2% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Blue-side draft priority secures at least 1 map.</td>
+            <td class="purple-text" style="font-weight: 700;">KT -1.5 Spread</td>
+            <td class="mono">+815</td>
+            <td class="mono glow-gold">38.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+249.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt.c vs bfxy lck">
+            <td class="mono leader-text" style="text-align: center;">3</td>
+            <td>KT.C vs BFXY</td>
+            <td class="purple-text" style="font-weight: 700;">BFXY -1.5 Spread</td>
+            <td class="mono">+537</td>
+            <td class="mono glow-gold">46.3%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+194.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="su vs pcific lck">
+            <td class="mono leader-text" style="text-align: center;">4</td>
+            <td>SU vs PCIFIC</td>
+            <td class="purple-text" style="font-weight: 700;">PCIFIC -1.5 Spread</td>
+            <td class="mono">+686</td>
+            <td class="mono glow-gold">25.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+96.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
         </tr>
         
         <tr class="main-row" data-search="dns vs drx lck">
-            <td class="mono leader-text" style="text-align: center;">6</td>
+            <td class="mono leader-text" style="text-align: center;">5</td>
             <td>DNS vs DRX</td>
-            <td class="purple-text" style="font-weight: 700;">DNS +1.5 Spread</td>
-            <td class="mono">-173</td>
-            <td class="mono glow-gold">78.0%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+23.1% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Blue-side draft priority secures at least 1 map.</td>
+            <td class="purple-text" style="font-weight: 700;">DNS -1.5 Spread</td>
+            <td class="mono">+568</td>
+            <td class="mono glow-gold">25.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+66.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High probability of absolute clean sweep (2-0 stomp) projected by Monte Carlo runs.</td>
         </tr>
         
-        <tr class="main-row" data-search="kt.c vs bfxy lck cl">
-            <td class="mono leader-text" style="text-align: center;">7</td>
-            <td>KT.C vs BFXY</td>
-            <td class="purple-text" style="font-weight: 700;">BFXY +1.5 Spread</td>
-            <td class="mono">-257</td>
-            <td class="mono glow-gold">84.5%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+17.4% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Red-side champion pick adjustments secure at least 1 map.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="bro.c vs t1.ea lck cl">
-            <td class="mono leader-text" style="text-align: center;">8</td>
+        <tr class="main-row" data-search="bro.c vs t1.ea lck">
+            <td class="mono leader-text" style="text-align: center;">6</td>
             <td>BRO.C vs T1.EA</td>
             <td class="purple-text" style="font-weight: 700;">BRO.C +1.5 Spread</td>
             <td class="mono">+114</td>
-            <td class="mono glow-gold">51.1%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+9.1% EV</td>
+            <td class="mono glow-gold">75.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Blue-side draft priority secures at least 1 map.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt vs gen lck">
+            <td class="mono leader-text" style="text-align: center;">7</td>
+            <td>KT vs GEN</td>
+            <td class="purple-text" style="font-weight: 700;">KT +1.5 Spread</td>
+            <td class="mono">-133</td>
+            <td class="mono glow-gold">85.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+49.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Blue-side draft priority secures at least 1 map.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt.c vs bfxy lck">
+            <td class="mono leader-text" style="text-align: center;">8</td>
+            <td>KT.C vs BFXY</td>
+            <td class="purple-text" style="font-weight: 700;">BFXY +1.5 Spread</td>
+            <td class="mono">-193</td>
+            <td class="mono glow-gold">89.8%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+36.3% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Red-side champion pick adjustments secure at least 1 map.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="su vs pcific lck">
+            <td class="mono leader-text" style="text-align: center;">9</td>
+            <td>SU vs PCIFIC</td>
+            <td class="purple-text" style="font-weight: 700;">PCIFIC +1.5 Spread</td>
+            <td class="mono">-155</td>
+            <td class="mono glow-gold">75.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+23.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Red-side champion pick adjustments secure at least 1 map.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="dns vs drx lck">
+            <td class="mono leader-text" style="text-align: center;">10</td>
+            <td>DNS vs DRX</td>
+            <td class="purple-text" style="font-weight: 700;">DNS +1.5 Spread</td>
+            <td class="mono">-183</td>
+            <td class="mono glow-gold">75.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+15.9% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">High floor of competitiveness. Blue-side draft priority secures at least 1 map.</td>
         </tr>
         
@@ -2246,33 +2259,53 @@
                     </thead>
                     <tbody>
                         
-        <tr class="main-row" data-search="kt vs gen lck">
+        <tr class="main-row" data-search="bro.c vs t1.ea lck">
             <td class="mono leader-text" style="text-align: center;">1</td>
-            <td>KT vs GEN</td>
-            <td class="cyan-text" style="font-weight: 700;">Over 2.5 Maps</td>
-            <td class="mono">+120</td>
-            <td class="mono glow-gold">49.8%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+9.4% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">Extremely close roster power ratings indicate high likelihood of a full 3-game series.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="bro.c vs t1.ea lck cl">
-            <td class="mono leader-text" style="text-align: center;">2</td>
             <td>BRO.C vs T1.EA</td>
             <td class="cyan-text" style="font-weight: 700;">Over 2.5 Maps</td>
             <td class="mono">+150</td>
-            <td class="mono glow-gold">41.9%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+4.7% EV</td>
+            <td class="mono glow-gold">50.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+24.9% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">Extremely close roster power ratings indicate high likelihood of a full 3-game series.</td>
         </tr>
         
-        <tr class="main-row" data-search="dns vs drx lck">
+        <tr class="main-row" data-search="su vs pcific lck">
+            <td class="mono leader-text" style="text-align: center;">2</td>
+            <td>SU vs PCIFIC</td>
+            <td class="cyan-text" style="font-weight: 700;">Over 2.5 Maps</td>
+            <td class="mono">+108</td>
+            <td class="mono glow-gold">50.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+4.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">Extremely close roster power ratings indicate high likelihood of a full 3-game series.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt vs gen lck">
             <td class="mono leader-text" style="text-align: center;">3</td>
+            <td>KT vs GEN</td>
+            <td class="cyan-text" style="font-weight: 700;">Over 2.5 Maps</td>
+            <td class="mono">+116</td>
+            <td class="mono glow-gold">47.2%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+2.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">Extremely close roster power ratings indicate high likelihood of a full 3-game series.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kt.c vs bfxy lck">
+            <td class="mono leader-text" style="text-align: center;">4</td>
+            <td>KT.C vs BFXY</td>
+            <td class="cyan-text" style="font-weight: 700;">Under 2.5 Maps</td>
+            <td class="mono">-126</td>
+            <td class="mono glow-gold">56.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+1.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">Lopsided champion pool diversity or fatigue penalties point to a quick 2-0 stomp.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="dns vs drx lck">
+            <td class="mono leader-text" style="text-align: center;">5</td>
             <td>DNS vs DRX</td>
             <td class="cyan-text" style="font-weight: 700;">Over 2.5 Maps</td>
-            <td class="mono">+103</td>
-            <td class="mono glow-gold">50.1%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+2.0% EV</td>
+            <td class="mono">+101</td>
+            <td class="mono glow-gold">50.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+0.5% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">Extremely close roster power ratings indicate high likelihood of a full 3-game series.</td>
         </tr>
         
@@ -2302,48 +2335,521 @@
                     </thead>
                     <tbody>
                         
-        <tr class="main-row" data-search="ruler wbg vs jdg prizepicks">
+        <tr class="main-row" data-search="clear kt.c vs bfxy underdog">
             <td class="mono leader-text" style="text-align: center;">1</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Clear</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">87.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+61.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="setab kt.c vs bfxy prizepicks">
+            <td class="mono leader-text" style="text-align: center;">2</td>
             <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">SeTab</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.0 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">87.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+61.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="way kt.c vs bfxy sleeper">
+            <td class="mono leader-text" style="text-align: center;">3</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Way</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 4.0 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">87.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+61.1% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kirei su vs pcific underdog">
+            <td class="mono leader-text" style="text-align: center;">4</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Kirei</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kirei su vs pcific sleeper">
+            <td class="mono leader-text" style="text-align: center;">5</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Kirei</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="sylvie dns vs drx underdog">
+            <td class="mono leader-text" style="text-align: center;">6</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Sylvie</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.0 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="vital dns vs drx sleeper">
+            <td class="mono leader-text" style="text-align: center;">7</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">vital</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+60.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="ruler wbg vs jdg sleeper">
+            <td class="mono leader-text" style="text-align: center;">8</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
             <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Ruler</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 4.5 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+59.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="juuzou su vs pcific sleeper">
+            <td class="mono leader-text" style="text-align: center;">9</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Juuzou</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 4.0 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+59.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="jactroll su vs pcific prizepicks">
+            <td class="mono leader-text" style="text-align: center;">10</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Jactroll</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 4.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">86.0%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+59.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kiin kt vs gen prizepicks">
+            <td class="mono leader-text" style="text-align: center;">11</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Kiin</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+58.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="deft kt vs gen underdog">
+            <td class="mono leader-text" style="text-align: center;">12</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Deft</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+58.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="faker bro.c vs t1.ea underdog">
+            <td class="mono leader-text" style="text-align: center;">13</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Faker</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 2.5 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.2%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+57.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="clear kt.c vs bfxy underdog">
+            <td class="mono leader-text" style="text-align: center;">14</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Clear</span></td>
             <td class="glow-gold" style="font-weight: 700;">Over 6.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+57.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="way kt.c vs bfxy underdog">
+            <td class="mono leader-text" style="text-align: center;">15</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Way</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+57.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="clear kt.c vs bfxy underdog">
+            <td class="mono leader-text" style="text-align: center;">16</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Clear</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+57.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="planb kt.c vs bfxy underdog">
+            <td class="mono leader-text" style="text-align: center;">17</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">PlanB</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">85.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+57.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kanavi wbg vs jdg prizepicks">
+            <td class="mono leader-text" style="text-align: center;">18</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Kanavi</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">84.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+56.1% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="kirei su vs pcific sleeper">
+            <td class="mono leader-text" style="text-align: center;">19</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Kirei</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.0 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">84.3%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+56.0% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="pleata dns vs drx underdog">
+            <td class="mono leader-text" style="text-align: center;">20</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Pleata</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">84.3%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+56.0% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="fate dns vs drx underdog">
+            <td class="mono leader-text" style="text-align: center;">21</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">FATE</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.5 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">84.3%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+56.0% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="perfect kt.c vs bfxy prizepicks">
+            <td class="mono leader-text" style="text-align: center;">22</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">PerfecT</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.0 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">82.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+53.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.6 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="light wbg vs jdg prizepicks">
+            <td class="mono leader-text" style="text-align: center;">23</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Light</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.5 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+51.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="keria bro.c vs t1.ea prizepicks">
+            <td class="mono leader-text" style="text-align: center;">24</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Keria</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 3.0 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.9%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+51.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="ruler wbg vs jdg sleeper">
+            <td class="mono leader-text" style="text-align: center;">25</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Ruler</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.6%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="zdz wbg vs jdg underdog">
+            <td class="mono leader-text" style="text-align: center;">26</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Zdz</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.5 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.6%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.9% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="parus su vs pcific underdog">
+            <td class="mono leader-text" style="text-align: center;">27</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Parus</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="bao su vs pcific underdog">
+            <td class="mono leader-text" style="text-align: center;">28</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Bao</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.8% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="gumayusi bro.c vs t1.ea sleeper">
+            <td class="mono leader-text" style="text-align: center;">29</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Gumayusi</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 Assists</td>
             <td class="mono">-118</td>
             <td class="mono glow-gold">81.5%</td>
             <td class="mono glow-green" style="font-weight: 700;">+50.8% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
         </tr>
         
-        <tr class="main-row" data-search="deft gen vs kt prizepicks">
-            <td class="mono leader-text" style="text-align: center;">2</td>
+        <tr class="main-row" data-search="faker bro.c vs t1.ea prizepicks">
+            <td class="mono leader-text" style="text-align: center;">30</td>
             <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
-            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Deft</span></td>
-            <td class="glow-gold" style="font-weight: 700;">Over 4.5 Kills</td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Faker</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 6.0 Assists</td>
             <td class="mono">-118</td>
-            <td class="mono glow-gold">79.1%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+46.4% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.5 expected kills.</td>
-        </tr>
-        
-        <tr class="main-row" data-search="kanavi wbg vs jdg underdog">
-            <td class="mono leader-text" style="text-align: center;">3</td>
-            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
-            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Kanavi</span></td>
-            <td class="glow-gold" style="font-weight: 700;">Over 7.5 Assists</td>
-            <td class="mono">-125</td>
-            <td class="mono glow-gold">77.8%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+40.0% EV</td>
+            <td class="mono glow-gold">81.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.8% EV</td>
             <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
         </tr>
         
-        <tr class="main-row" data-search="chovy gen vs kt underdog">
-            <td class="mono leader-text" style="text-align: center;">4</td>
+        <tr class="main-row" data-search="deft kt vs gen sleeper">
+            <td class="mono leader-text" style="text-align: center;">31</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Deft</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.7% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="canyon kt vs gen prizepicks">
+            <td class="mono leader-text" style="text-align: center;">32</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Canyon</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">81.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+50.7% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="zdz wbg vs jdg prizepicks">
+            <td class="mono leader-text" style="text-align: center;">33</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Zdz</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.0 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">77.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+43.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="xiaohao wbg vs jdg underdog">
+            <td class="mono leader-text" style="text-align: center;">34</td>
             <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
-            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Chovy</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Xiaohao</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">77.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+43.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="pyosik kt vs gen prizepicks">
+            <td class="mono leader-text" style="text-align: center;">35</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Pyosik</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 8.5 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">77.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+43.4% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 13.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="lourlo su vs pcific underdog">
+            <td class="mono leader-text" style="text-align: center;">36</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Lourlo</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">77.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+43.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="sylvie dns vs drx prizepicks">
+            <td class="mono leader-text" style="text-align: center;">37</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Sylvie</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 7.5 Assists</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">77.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+43.2% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected assists.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="effort bro.c vs t1.ea prizepicks">
+            <td class="mono leader-text" style="text-align: center;">38</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">PrizePicks</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Effort</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 4.5 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">76.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+41.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="fate dns vs drx underdog">
+            <td class="mono leader-text" style="text-align: center;">39</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">FATE</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 4.5 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">76.5%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+41.5% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="pyosik kt vs gen underdog">
+            <td class="mono leader-text" style="text-align: center;">40</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Pyosik</span></td>
             <td class="glow-gold" style="font-weight: 700;">Over 5.5 Kills</td>
-            <td class="mono">-111</td>
-            <td class="mono glow-gold">72.5%</td>
-            <td class="mono glow-green" style="font-weight: 700;">+37.7% EV</td>
-            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.5 expected kills.</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">74.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+37.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.7 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="canyon kt vs gen underdog">
+            <td class="mono leader-text" style="text-align: center;">41</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Canyon</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.5 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">74.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+37.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.7 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="deft kt vs gen underdog">
+            <td class="mono leader-text" style="text-align: center;">42</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Deft</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.5 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">74.4%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+37.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.7 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="oner bro.c vs t1.ea sleeper">
+            <td class="mono leader-text" style="text-align: center;">43</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Oner</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 8.5 MAP 1-2 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">72.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+33.3% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected map 1-2 kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="rascal dns vs drx sleeper">
+            <td class="mono leader-text" style="text-align: center;">44</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Rascal</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 8.0 CS</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">72.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+33.3% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 12.0 expected cs.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="zeus bro.c vs t1.ea sleeper">
+            <td class="mono leader-text" style="text-align: center;">45</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Sleeper</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Zeus</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.0 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">69.2%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+28.1% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="faker bro.c vs t1.ea underdog">
+            <td class="mono leader-text" style="text-align: center;">46</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Faker</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Over 5.0 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">69.2%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+28.1% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
+        </tr>
+        
+        <tr class="main-row" data-search="rascal dns vs drx underdog">
+            <td class="mono leader-text" style="text-align: center;">47</td>
+            <td><span class="badge" style="background: rgba(124, 58, 237, 0.2); color: #a855f7; border: 1px solid #7c3aed;">Underdog</span></td>
+            <td><span class="cyan-text" style="font-weight: 700; font-size: 1.1rem;">Rascal</span></td>
+            <td class="glow-gold" style="font-weight: 700;">Under 8.0 Kills</td>
+            <td class="mono">-118</td>
+            <td class="mono glow-gold">57.1%</td>
+            <td class="mono glow-green" style="font-weight: 700;">+5.6% EV</td>
+            <td style="font-size: 0.85rem; color: var(--text-muted);">KDA Prophet projection: 8.0 expected kills.</td>
         </tr>
         
                     </tbody>
