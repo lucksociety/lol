@@ -1,21 +1,21 @@
 # Match Intelligence: KT vs GEN
 **Date**: 2026-05-21 | **League**: LCK | **Engine**: LOL Omni-Prophet V5.0
-**Generated**: 2026-05-21 22:13
+**Generated**: 2026-05-21 22:16
 
 ---
 
 ## Series Projection
-- **KT Win Probability**: 20.0%
-- **GEN Win Probability**: 80.0%
+- **KT Win Probability**: 19.8%
+- **GEN Win Probability**: 80.2%
 - **Score Distribution**:
-  - 0-2: 54.5%
-  - 1-2: 25.5%
-  - 2-1: 12.1%
-  - 2-0: 7.9%
+  - 0-2: 55.0%
+  - 1-2: 25.2%
+  - 2-1: 12.0%
+  - 2-0: 7.8%
 
 ## Ensemble Cross-Check
-- Deterministic: 23.3%
-- GBDT: 23.3%
+- Deterministic: 23.0%
+- GBDT: 23.0%
 - Disagreement: 0.0%
 - Status: ✅ ALIGNED
 

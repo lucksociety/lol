@@ -163,6 +163,10 @@ class DeterministicLoL:
         # ── CALIBRATION (Omni-Prophet V5.0) ──
         self._calibration = None
 
+        # Add slight random noise to player ratings for dynamic simulation runs
+        for player in self.player_power:
+            self.player_power[player] += random.uniform(-1.5, 1.5)
+
     def _get_player_power(self, name):
         return self.player_power.get(name, 80)
 
@@ -397,12 +401,13 @@ class DeterministicLoL:
                 brier = 0.5
         
         if brier > 0.25:
-            # System is under-performing. Cap confidence at 80% and flag as VOLATILE.
-            if series_win_prob > 0.80:
-                series_win_prob = 0.80
+            # System is under-performing. Cap confidence at a slightly randomized soft boundary (77.5% - 81.5%)
+            cap_val = random.uniform(0.775, 0.815)
+            if series_win_prob > cap_val:
+                series_win_prob = cap_val
                 result["confidence_cap"] = True
-            elif series_win_prob < 0.20:
-                series_win_prob = 0.20
+            elif series_win_prob < (1.0 - cap_val):
+                series_win_prob = 1.0 - cap_val
                 result["confidence_cap"] = True
 
         
